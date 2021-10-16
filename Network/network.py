@@ -2,10 +2,10 @@ import logging
 import socket
 
 from SES.ses import SES
+from constant import PORT_OFFSET
 from .receiver import ReceiverWorker
 from .sender import SenderWorker
 
-PORT_OFFSET = 60000
 logger = logging.getLogger("__general_log__")
 
 

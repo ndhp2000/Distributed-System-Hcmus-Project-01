@@ -9,12 +9,13 @@ from Network.network import Network
 def init_log(iid):
     logger = logging.getLogger("__general_log__")
     logger.addHandler(get_custom_console_handler())
-    logger.addHandler(get_custom_file_handler("./static/logs/{:02d}__console.log".format(iid)))
+    logger.addHandler(get_custom_file_handler("./static/logs/{:02d}__general.log".format(iid)))
 
     logger = logging.getLogger("__sender_log__")
     logger.addHandler(get_custom_file_handler("./static/logs/{:02d}__sender.log".format(iid)))
 
     logger = logging.getLogger("__receiver_log__")
+    logger.addHandler(get_custom_console_handler())
     logger.addHandler(get_custom_file_handler("./static/logs/{:02d}__receiver.log".format(iid)))
 
 

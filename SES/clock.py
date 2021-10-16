@@ -1,5 +1,4 @@
-INT_SIZE = 4
-INT_REPR = 'big'
+from constant import INT_SIZE, INT_REPR
 
 
 class LogicClock:
@@ -16,15 +15,19 @@ class LogicClock:
     def __str__(self):
         return self.__repr__()
 
-    def __gt__(self, other):
+    def __eq__(self, other):
         for i in range(self.n_instance):
-            if self._clock[i] <= other.get_time()[i]:
+            if self._clock[i] != other.get_time()[i]:
                 return False
         return True
 
-    def __ge__(self, other):
+    def __lt__(self, other):
+        return self <= other and self != other
+
+    def __le__(self, other):
+        # A<=B if all A[i]<=B[i]
         for i in range(self.n_instance):
-            if self._clock[i] < other.get_time()[i]:
+            if self._clock[i] > other.get_time()[i]:
                 return False
         return True
 

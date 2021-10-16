@@ -1,0 +1,3 @@
+INT_SIZE = 4
+INT_REPR = 'big'
+PORT_OFFSET = 60000

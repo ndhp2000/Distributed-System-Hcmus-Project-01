@@ -1,7 +1,5 @@
+from constant import INT_SIZE, INT_REPR
 from .clock import LogicClock
-
-INT_SIZE = 4
-INT_REPR = 'big'
 
 
 class VectorClock:
@@ -66,6 +64,7 @@ class VectorClock:
     def get_clock(self, index):
         return self.vectors[index]
 
+# Module Test
 # def Testing():
 #     for n in range(2, 100):
 #         k = random.randint(0, n - 1)

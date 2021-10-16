@@ -42,32 +42,20 @@ class SES:
         print("\tSender ID: {}".format(source_vector_clock.instance_id), file=string_stream)
         print("\tReceiver ID: {}".format(self.vector_clock.instance_id), file=string_stream)
         print("\tPacket Content: {}".format(packet), file=string_stream)
-
+        #
         print("\tPacket Clock:", file=string_stream)
-        print("\t\tLogical clock:{}".format(source_vector_clock.get_clock(source_vector_clock.instance_id)),
+        print("\t\tt_m: {}".format(t_m),
               file=string_stream)
-        print("\t\tProcess vectors:", file=string_stream)
-        for i in range(source_vector_clock.n_instance):
-            if i != source_vector_clock.instance_id and not source_vector_clock.get_clock(i).is_null():
-                print("\t\t\t<P_{}: {}>".format(i, source_vector_clock.get_clock(i)),
-                      file=string_stream)
-
-        print("\tReceiver Clock:", file=string_stream)
-        print("\t\tLocal logical clock:{}".format(self.vector_clock.get_clock(self.vector_clock.instance_id)),
+        print("\t\ttP_snd: {}".format(source_vector_clock.get_clock(source_vector_clock.instance_id)),
               file=string_stream)
-        print("\t\tLocal process vectors:", file=string_stream)
-        for i in range(self.vector_clock.n_instance):
-            if i != self.vector_clock.instance_id and not self.vector_clock.get_clock(i).is_null():
-                print("\t\t\t<P_{}: {}>".format(i, self.vector_clock.get_clock(i)),
-                      file=string_stream)
-
+        print("\tReceiver Logical Clock (tP_rcv):", file=string_stream)
+        print("\t\t{}".format(self.vector_clock.get_clock(self.vector_clock.instance_id)),
+              file=string_stream)
         print("\tStatus: {}".format(status), file=string_stream)
-
         if print_compare:
             print(
-                "\tDelivery Condition:{} >= {}".format(self.vector_clock.get_clock(self.vector_clock.instance_id), t_m),
+                "\tDelivery Condition:{} > {}".format(self.vector_clock.get_clock(self.vector_clock.instance_id), t_m),
                 file=string_stream)
-
         return string_stream.getvalue()[:-1]
 
     def serialize(self, packet):
@@ -86,6 +74,10 @@ class SES:
         return vector_clock, packet
 
     def merge(self, source_vector_clock):
+        """
+        :param source_vector_clock: merge vector clock in the received packet with the process clock.
+        :return:
+        """
         for i in range(self.vector_clock.n_instance):
             if i != self.vector_clock.instance_id and i != source_vector_clock.instance_id:
                 self.vector_clock.merge(source_vector_clock, i, i)
@@ -93,47 +85,39 @@ class SES:
         self.vector_clock.increase()
 
     def deliver(self, packet):
-
-        self.lock.acquire()
+        self.lock.acquire()  # synchronize
         source_vector_clock, packet = self.deserialize(packet)
         t_p = self.vector_clock.get_clock(self.vector_clock.instance_id)
         t_m = source_vector_clock.get_clock(self.vector_clock.instance_id)
-        if t_p.is_null() or t_p >= t_m:
+        if t_m < t_p:
             # Deliver
             logger_receive.info(
-                self.get_deliver_log(t_m, source_vector_clock, packet, status="delivering", header="BEFORE MERGE",
+                self.get_deliver_log(t_m, source_vector_clock, packet, status="delivering", header="BEFORE DELIVERED",
                                      print_compare=True))
             self.merge(source_vector_clock)
-            logger_receive.info(
-                self.get_deliver_log(t_m, source_vector_clock, packet, status="delivered", header="AFTER MERGE",
-                                     print_compare=False))
         else:
             # Queue
             self.queue.append((t_m, source_vector_clock, packet))
             logger_receive.info(
-                self.get_deliver_log(t_m, source_vector_clock, packet, status="buffered", header="WHEN BUFFERED",
+                self.get_deliver_log(t_m, source_vector_clock, packet, status="buffered", header="BEFORE BUFFERED",
                                      print_compare=True))
             break_flag = False
             while not break_flag:
                 break_flag = True
                 for index, (t_m, source_vector_clock, packet) in enumerate(self.queue):
-                    if t_p.is_null() or t_p >= t_m:
+                    if t_m < t_p:
                         logger_receive.info(
                             self.get_deliver_log(t_m, source_vector_clock, packet, status="delivering from buffer",
-                                                 header="BEFORE MERGE FROM BUFFERED",
+                                                 header="BEFORE DELIVERED FROM BUFFERED",
                                                  print_compare=True))
                         self.merge(source_vector_clock)
-                        logger_receive.info(
-                            self.get_deliver_log(t_m, source_vector_clock, packet, status="delivered from buffer",
-                                                 header="AFTER MERGE FROM BUFFERED",
-                                                 print_compare=True))
                         self.queue.pop(index)
                         break_flag = False
                         break
         self.lock.release()
 
     def send(self, destination_id, packet):
-        self.lock.acquire()
+        self.lock.acquire()  # synchronize
         self.vector_clock.increase()
         logger_send.info(self.get_sender_log(destination_id, packet))
         result = self.serialize(packet)
@@ -141,7 +125,7 @@ class SES:
         self.lock.release()
         return result
 
-#
+# Module test
 # p0 = SES(3, 0)
 # p1 = SES(3, 1)
 # p2 = SES(3, 2)

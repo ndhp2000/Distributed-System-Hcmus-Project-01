@@ -4,8 +4,8 @@ import socket
 import threading
 import time
 
-INT_SIZE = 4
-INT_REPR = 'big'
+from constant import INT_SIZE, INT_REPR
+
 logger = logging.getLogger("__sender_log__")
 
 
@@ -32,7 +32,7 @@ class SenderWorker(threading.Thread):
                 logger.warning(
                     'SENDER #{}: connection to {}:{} failed, retry after 500 milliseconds.'.format(self.ident, self.ip,
                                                                                                    self.port))
-                time.sleep(0.5)
+                time.sleep(2)
 
         while not self.shutdown_flag.is_set():
             try:
