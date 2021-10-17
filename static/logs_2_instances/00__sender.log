@@ -1,0 +1,1514 @@
+2021-10-17 11:34:41,415 - __sender_log__ - INFO: 
+SENDER #140085175105280: started
+---------------------
+2021-10-17 11:34:41,415 - __sender_log__ - INFO: 
+SENDER #140085175105280: create sender connect to 127.0.0.1:60001
+---------------------
+2021-10-17 11:34:41,416 - __sender_log__ - WARNING: 
+SENDER #140085175105280: connection to 127.0.0.1:60001 failed, retry after 500 milliseconds.
+---------------------
+2021-10-17 11:34:41,916 - __sender_log__ - INFO: 
+SENDER #140085175105280: create sender connect to 127.0.0.1:60001
+---------------------
+2021-10-17 11:34:41,916 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 1'
+	Sender Clock:
+		Local logical clock:(2, 1)
+		Local process vectors:
+---------------------
+2021-10-17 11:34:42,610 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 2'
+	Sender Clock:
+		Local logical clock:(3, 1)
+		Local process vectors:
+			<P_1: (2, 1)>
+---------------------
+2021-10-17 11:34:42,839 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 3'
+	Sender Clock:
+		Local logical clock:(5, 4)
+		Local process vectors:
+			<P_1: (3, 1)>
+---------------------
+2021-10-17 11:34:43,453 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 4'
+	Sender Clock:
+		Local logical clock:(8, 6)
+		Local process vectors:
+			<P_1: (5, 4)>
+---------------------
+2021-10-17 11:34:44,269 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 5'
+	Sender Clock:
+		Local logical clock:(12, 10)
+		Local process vectors:
+			<P_1: (8, 6)>
+---------------------
+2021-10-17 11:34:44,872 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 6'
+	Sender Clock:
+		Local logical clock:(15, 12)
+		Local process vectors:
+			<P_1: (12, 10)>
+---------------------
+2021-10-17 11:34:45,595 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 7'
+	Sender Clock:
+		Local logical clock:(16, 12)
+		Local process vectors:
+			<P_1: (15, 12)>
+---------------------
+2021-10-17 11:34:45,735 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 8'
+	Sender Clock:
+		Local logical clock:(17, 12)
+		Local process vectors:
+			<P_1: (16, 12)>
+---------------------
+2021-10-17 11:34:46,490 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 9'
+	Sender Clock:
+		Local logical clock:(18, 12)
+		Local process vectors:
+			<P_1: (17, 12)>
+---------------------
+2021-10-17 11:34:46,931 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 10'
+	Sender Clock:
+		Local logical clock:(20, 15)
+		Local process vectors:
+			<P_1: (18, 12)>
+---------------------
+2021-10-17 11:34:46,966 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 11'
+	Sender Clock:
+		Local logical clock:(23, 21)
+		Local process vectors:
+			<P_1: (20, 15)>
+---------------------
+2021-10-17 11:34:47,782 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 12'
+	Sender Clock:
+		Local logical clock:(26, 25)
+		Local process vectors:
+			<P_1: (23, 21)>
+---------------------
+2021-10-17 11:34:48,579 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 13'
+	Sender Clock:
+		Local logical clock:(27, 25)
+		Local process vectors:
+			<P_1: (26, 25)>
+---------------------
+2021-10-17 11:34:49,252 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 14'
+	Sender Clock:
+		Local logical clock:(33, 31)
+		Local process vectors:
+			<P_1: (27, 25)>
+---------------------
+2021-10-17 11:34:50,123 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 15'
+	Sender Clock:
+		Local logical clock:(35, 33)
+		Local process vectors:
+			<P_1: (33, 31)>
+---------------------
+2021-10-17 11:34:50,697 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 16'
+	Sender Clock:
+		Local logical clock:(37, 34)
+		Local process vectors:
+			<P_1: (35, 33)>
+---------------------
+2021-10-17 11:34:50,875 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 17'
+	Sender Clock:
+		Local logical clock:(38, 34)
+		Local process vectors:
+			<P_1: (37, 34)>
+---------------------
+2021-10-17 11:34:51,216 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 18'
+	Sender Clock:
+		Local logical clock:(40, 39)
+		Local process vectors:
+			<P_1: (38, 34)>
+---------------------
+2021-10-17 11:34:51,416 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 19'
+	Sender Clock:
+		Local logical clock:(41, 39)
+		Local process vectors:
+			<P_1: (40, 39)>
+---------------------
+2021-10-17 11:34:51,879 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 20'
+	Sender Clock:
+		Local logical clock:(43, 41)
+		Local process vectors:
+			<P_1: (41, 39)>
+---------------------
+2021-10-17 11:34:51,955 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 21'
+	Sender Clock:
+		Local logical clock:(45, 44)
+		Local process vectors:
+			<P_1: (43, 41)>
+---------------------
+2021-10-17 11:34:52,434 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 22'
+	Sender Clock:
+		Local logical clock:(47, 46)
+		Local process vectors:
+			<P_1: (45, 44)>
+---------------------
+2021-10-17 11:34:52,504 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 23'
+	Sender Clock:
+		Local logical clock:(48, 46)
+		Local process vectors:
+			<P_1: (47, 46)>
+---------------------
+2021-10-17 11:34:53,373 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 24'
+	Sender Clock:
+		Local logical clock:(52, 51)
+		Local process vectors:
+			<P_1: (48, 46)>
+---------------------
+2021-10-17 11:34:53,914 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 25'
+	Sender Clock:
+		Local logical clock:(53, 51)
+		Local process vectors:
+			<P_1: (52, 51)>
+---------------------
+2021-10-17 11:34:54,118 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 26'
+	Sender Clock:
+		Local logical clock:(56, 55)
+		Local process vectors:
+			<P_1: (53, 51)>
+---------------------
+2021-10-17 11:34:54,854 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 27'
+	Sender Clock:
+		Local logical clock:(60, 59)
+		Local process vectors:
+			<P_1: (56, 55)>
+---------------------
+2021-10-17 11:34:55,511 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 28'
+	Sender Clock:
+		Local logical clock:(62, 60)
+		Local process vectors:
+			<P_1: (60, 59)>
+---------------------
+2021-10-17 11:34:56,481 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 29'
+	Sender Clock:
+		Local logical clock:(64, 62)
+		Local process vectors:
+			<P_1: (62, 60)>
+---------------------
+2021-10-17 11:34:56,637 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 30'
+	Sender Clock:
+		Local logical clock:(65, 62)
+		Local process vectors:
+			<P_1: (64, 62)>
+---------------------
+2021-10-17 11:34:57,528 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 31'
+	Sender Clock:
+		Local logical clock:(66, 62)
+		Local process vectors:
+			<P_1: (65, 62)>
+---------------------
+2021-10-17 11:34:57,670 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 32'
+	Sender Clock:
+		Local logical clock:(67, 62)
+		Local process vectors:
+			<P_1: (66, 62)>
+---------------------
+2021-10-17 11:34:58,342 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 33'
+	Sender Clock:
+		Local logical clock:(70, 67)
+		Local process vectors:
+			<P_1: (67, 62)>
+---------------------
+2021-10-17 11:34:59,279 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 34'
+	Sender Clock:
+		Local logical clock:(75, 74)
+		Local process vectors:
+			<P_1: (70, 67)>
+---------------------
+2021-10-17 11:35:00,222 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 35'
+	Sender Clock:
+		Local logical clock:(77, 76)
+		Local process vectors:
+			<P_1: (75, 74)>
+---------------------
+2021-10-17 11:35:01,055 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 36'
+	Sender Clock:
+		Local logical clock:(79, 78)
+		Local process vectors:
+			<P_1: (77, 76)>
+---------------------
+2021-10-17 11:35:01,662 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 37'
+	Sender Clock:
+		Local logical clock:(81, 79)
+		Local process vectors:
+			<P_1: (79, 78)>
+---------------------
+2021-10-17 11:35:02,334 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 38'
+	Sender Clock:
+		Local logical clock:(82, 79)
+		Local process vectors:
+			<P_1: (81, 79)>
+---------------------
+2021-10-17 11:35:02,530 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 39'
+	Sender Clock:
+		Local logical clock:(86, 85)
+		Local process vectors:
+			<P_1: (82, 79)>
+---------------------
+2021-10-17 11:35:03,490 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 40'
+	Sender Clock:
+		Local logical clock:(89, 88)
+		Local process vectors:
+			<P_1: (86, 85)>
+---------------------
+2021-10-17 11:35:03,551 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 41'
+	Sender Clock:
+		Local logical clock:(90, 88)
+		Local process vectors:
+			<P_1: (89, 88)>
+---------------------
+2021-10-17 11:35:03,991 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 42'
+	Sender Clock:
+		Local logical clock:(91, 88)
+		Local process vectors:
+			<P_1: (90, 88)>
+---------------------
+2021-10-17 11:35:04,449 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 43'
+	Sender Clock:
+		Local logical clock:(93, 92)
+		Local process vectors:
+			<P_1: (91, 88)>
+---------------------
+2021-10-17 11:35:05,209 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 44'
+	Sender Clock:
+		Local logical clock:(96, 95)
+		Local process vectors:
+			<P_1: (93, 92)>
+---------------------
+2021-10-17 11:35:05,413 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 45'
+	Sender Clock:
+		Local logical clock:(97, 95)
+		Local process vectors:
+			<P_1: (96, 95)>
+---------------------
+2021-10-17 11:35:05,973 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 46'
+	Sender Clock:
+		Local logical clock:(99, 98)
+		Local process vectors:
+			<P_1: (97, 95)>
+---------------------
+2021-10-17 11:35:06,150 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 47'
+	Sender Clock:
+		Local logical clock:(100, 98)
+		Local process vectors:
+			<P_1: (99, 98)>
+---------------------
+2021-10-17 11:35:07,063 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 48'
+	Sender Clock:
+		Local logical clock:(102, 101)
+		Local process vectors:
+			<P_1: (100, 98)>
+---------------------
+2021-10-17 11:35:07,373 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 49'
+	Sender Clock:
+		Local logical clock:(103, 101)
+		Local process vectors:
+			<P_1: (102, 101)>
+---------------------
+2021-10-17 11:35:08,216 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 50'
+	Sender Clock:
+		Local logical clock:(105, 104)
+		Local process vectors:
+			<P_1: (103, 101)>
+---------------------
+2021-10-17 11:35:08,466 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 51'
+	Sender Clock:
+		Local logical clock:(107, 106)
+		Local process vectors:
+			<P_1: (105, 104)>
+---------------------
+2021-10-17 11:35:09,162 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 52'
+	Sender Clock:
+		Local logical clock:(109, 108)
+		Local process vectors:
+			<P_1: (107, 106)>
+---------------------
+2021-10-17 11:35:09,676 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 53'
+	Sender Clock:
+		Local logical clock:(110, 108)
+		Local process vectors:
+			<P_1: (109, 108)>
+---------------------
+2021-10-17 11:35:10,522 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 54'
+	Sender Clock:
+		Local logical clock:(112, 111)
+		Local process vectors:
+			<P_1: (110, 108)>
+---------------------
+2021-10-17 11:35:11,069 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 55'
+	Sender Clock:
+		Local logical clock:(116, 115)
+		Local process vectors:
+			<P_1: (112, 111)>
+---------------------
+2021-10-17 11:35:11,154 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 56'
+	Sender Clock:
+		Local logical clock:(117, 115)
+		Local process vectors:
+			<P_1: (116, 115)>
+---------------------
+2021-10-17 11:35:12,021 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 57'
+	Sender Clock:
+		Local logical clock:(121, 119)
+		Local process vectors:
+			<P_1: (117, 115)>
+---------------------
+2021-10-17 11:35:12,342 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 58'
+	Sender Clock:
+		Local logical clock:(122, 119)
+		Local process vectors:
+			<P_1: (121, 119)>
+---------------------
+2021-10-17 11:35:13,104 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 59'
+	Sender Clock:
+		Local logical clock:(123, 119)
+		Local process vectors:
+			<P_1: (122, 119)>
+---------------------
+2021-10-17 11:35:13,234 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 60'
+	Sender Clock:
+		Local logical clock:(124, 119)
+		Local process vectors:
+			<P_1: (123, 119)>
+---------------------
+2021-10-17 11:35:13,330 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 61'
+	Sender Clock:
+		Local logical clock:(125, 119)
+		Local process vectors:
+			<P_1: (124, 119)>
+---------------------
+2021-10-17 11:35:14,208 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 62'
+	Sender Clock:
+		Local logical clock:(130, 129)
+		Local process vectors:
+			<P_1: (125, 119)>
+---------------------
+2021-10-17 11:35:14,608 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 63'
+	Sender Clock:
+		Local logical clock:(132, 131)
+		Local process vectors:
+			<P_1: (130, 129)>
+---------------------
+2021-10-17 11:35:15,451 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 64'
+	Sender Clock:
+		Local logical clock:(134, 133)
+		Local process vectors:
+			<P_1: (132, 131)>
+---------------------
+2021-10-17 11:35:15,777 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 65'
+	Sender Clock:
+		Local logical clock:(136, 135)
+		Local process vectors:
+			<P_1: (134, 133)>
+---------------------
+2021-10-17 11:35:16,771 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 66'
+	Sender Clock:
+		Local logical clock:(138, 137)
+		Local process vectors:
+			<P_1: (136, 135)>
+---------------------
+2021-10-17 11:35:17,153 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 67'
+	Sender Clock:
+		Local logical clock:(140, 139)
+		Local process vectors:
+			<P_1: (138, 137)>
+---------------------
+2021-10-17 11:35:17,189 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 68'
+	Sender Clock:
+		Local logical clock:(141, 139)
+		Local process vectors:
+			<P_1: (140, 139)>
+---------------------
+2021-10-17 11:35:17,631 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 69'
+	Sender Clock:
+		Local logical clock:(143, 141)
+		Local process vectors:
+			<P_1: (141, 139)>
+---------------------
+2021-10-17 11:35:18,112 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 70'
+	Sender Clock:
+		Local logical clock:(144, 141)
+		Local process vectors:
+			<P_1: (143, 141)>
+---------------------
+2021-10-17 11:35:18,907 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 71'
+	Sender Clock:
+		Local logical clock:(147, 146)
+		Local process vectors:
+			<P_1: (144, 141)>
+---------------------
+2021-10-17 11:35:19,542 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 72'
+	Sender Clock:
+		Local logical clock:(148, 146)
+		Local process vectors:
+			<P_1: (147, 146)>
+---------------------
+2021-10-17 11:35:19,611 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 73'
+	Sender Clock:
+		Local logical clock:(149, 146)
+		Local process vectors:
+			<P_1: (148, 146)>
+---------------------
+2021-10-17 11:35:20,530 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 74'
+	Sender Clock:
+		Local logical clock:(154, 153)
+		Local process vectors:
+			<P_1: (149, 146)>
+---------------------
+2021-10-17 11:35:21,169 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 75'
+	Sender Clock:
+		Local logical clock:(156, 155)
+		Local process vectors:
+			<P_1: (154, 153)>
+---------------------
+2021-10-17 11:35:21,292 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 76'
+	Sender Clock:
+		Local logical clock:(157, 155)
+		Local process vectors:
+			<P_1: (156, 155)>
+---------------------
+2021-10-17 11:35:21,617 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 77'
+	Sender Clock:
+		Local logical clock:(160, 159)
+		Local process vectors:
+			<P_1: (157, 155)>
+---------------------
+2021-10-17 11:35:22,598 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 78'
+	Sender Clock:
+		Local logical clock:(163, 162)
+		Local process vectors:
+			<P_1: (160, 159)>
+---------------------
+2021-10-17 11:35:23,091 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 79'
+	Sender Clock:
+		Local logical clock:(166, 164)
+		Local process vectors:
+			<P_1: (163, 162)>
+---------------------
+2021-10-17 11:35:23,112 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 80'
+	Sender Clock:
+		Local logical clock:(167, 164)
+		Local process vectors:
+			<P_1: (166, 164)>
+---------------------
+2021-10-17 11:35:23,468 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 81'
+	Sender Clock:
+		Local logical clock:(170, 168)
+		Local process vectors:
+			<P_1: (167, 164)>
+---------------------
+2021-10-17 11:35:24,106 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 82'
+	Sender Clock:
+		Local logical clock:(172, 169)
+		Local process vectors:
+			<P_1: (170, 168)>
+---------------------
+2021-10-17 11:35:24,982 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 83'
+	Sender Clock:
+		Local logical clock:(175, 171)
+		Local process vectors:
+			<P_1: (172, 169)>
+---------------------
+2021-10-17 11:35:25,465 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 84'
+	Sender Clock:
+		Local logical clock:(176, 171)
+		Local process vectors:
+			<P_1: (175, 171)>
+---------------------
+2021-10-17 11:35:26,077 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 85'
+	Sender Clock:
+		Local logical clock:(178, 177)
+		Local process vectors:
+			<P_1: (176, 171)>
+---------------------
+2021-10-17 11:35:26,279 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 86'
+	Sender Clock:
+		Local logical clock:(179, 177)
+		Local process vectors:
+			<P_1: (178, 177)>
+---------------------
+2021-10-17 11:35:26,546 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 87'
+	Sender Clock:
+		Local logical clock:(180, 177)
+		Local process vectors:
+			<P_1: (179, 177)>
+---------------------
+2021-10-17 11:35:27,434 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 88'
+	Sender Clock:
+		Local logical clock:(184, 183)
+		Local process vectors:
+			<P_1: (180, 177)>
+---------------------
+2021-10-17 11:35:28,079 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 89'
+	Sender Clock:
+		Local logical clock:(186, 185)
+		Local process vectors:
+			<P_1: (184, 183)>
+---------------------
+2021-10-17 11:35:28,202 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 90'
+	Sender Clock:
+		Local logical clock:(188, 186)
+		Local process vectors:
+			<P_1: (186, 185)>
+---------------------
+2021-10-17 11:35:28,994 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 91'
+	Sender Clock:
+		Local logical clock:(191, 189)
+		Local process vectors:
+			<P_1: (188, 186)>
+---------------------
+2021-10-17 11:35:29,987 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 92'
+	Sender Clock:
+		Local logical clock:(193, 192)
+		Local process vectors:
+			<P_1: (191, 189)>
+---------------------
+2021-10-17 11:35:30,259 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 93'
+	Sender Clock:
+		Local logical clock:(194, 192)
+		Local process vectors:
+			<P_1: (193, 192)>
+---------------------
+2021-10-17 11:35:30,304 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 94'
+	Sender Clock:
+		Local logical clock:(195, 192)
+		Local process vectors:
+			<P_1: (194, 192)>
+---------------------
+2021-10-17 11:35:30,857 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 95'
+	Sender Clock:
+		Local logical clock:(197, 196)
+		Local process vectors:
+			<P_1: (195, 192)>
+---------------------
+2021-10-17 11:35:30,974 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 96'
+	Sender Clock:
+		Local logical clock:(198, 196)
+		Local process vectors:
+			<P_1: (197, 196)>
+---------------------
+2021-10-17 11:35:31,425 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 97'
+	Sender Clock:
+		Local logical clock:(200, 199)
+		Local process vectors:
+			<P_1: (198, 196)>
+---------------------
+2021-10-17 11:35:32,063 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 98'
+	Sender Clock:
+		Local logical clock:(202, 201)
+		Local process vectors:
+			<P_1: (200, 199)>
+---------------------
+2021-10-17 11:35:32,300 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 99'
+	Sender Clock:
+		Local logical clock:(203, 201)
+		Local process vectors:
+			<P_1: (202, 201)>
+---------------------
+2021-10-17 11:35:33,231 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 100'
+	Sender Clock:
+		Local logical clock:(205, 204)
+		Local process vectors:
+			<P_1: (203, 201)>
+---------------------
+2021-10-17 11:35:33,659 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 101'
+	Sender Clock:
+		Local logical clock:(207, 206)
+		Local process vectors:
+			<P_1: (205, 204)>
+---------------------
+2021-10-17 11:35:33,975 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 102'
+	Sender Clock:
+		Local logical clock:(209, 208)
+		Local process vectors:
+			<P_1: (207, 206)>
+---------------------
+2021-10-17 11:35:34,117 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 103'
+	Sender Clock:
+		Local logical clock:(211, 210)
+		Local process vectors:
+			<P_1: (209, 208)>
+---------------------
+2021-10-17 11:35:34,174 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 104'
+	Sender Clock:
+		Local logical clock:(212, 210)
+		Local process vectors:
+			<P_1: (211, 210)>
+---------------------
+2021-10-17 11:35:34,585 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 105'
+	Sender Clock:
+		Local logical clock:(213, 210)
+		Local process vectors:
+			<P_1: (212, 210)>
+---------------------
+2021-10-17 11:35:35,538 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 106'
+	Sender Clock:
+		Local logical clock:(215, 214)
+		Local process vectors:
+			<P_1: (213, 210)>
+---------------------
+2021-10-17 11:35:36,179 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 107'
+	Sender Clock:
+		Local logical clock:(217, 216)
+		Local process vectors:
+			<P_1: (215, 214)>
+---------------------
+2021-10-17 11:35:36,445 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 108'
+	Sender Clock:
+		Local logical clock:(219, 218)
+		Local process vectors:
+			<P_1: (217, 216)>
+---------------------
+2021-10-17 11:35:37,111 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 109'
+	Sender Clock:
+		Local logical clock:(222, 220)
+		Local process vectors:
+			<P_1: (219, 218)>
+---------------------
+2021-10-17 11:35:38,049 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 110'
+	Sender Clock:
+		Local logical clock:(225, 223)
+		Local process vectors:
+			<P_1: (222, 220)>
+---------------------
+2021-10-17 11:35:38,446 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 111'
+	Sender Clock:
+		Local logical clock:(228, 227)
+		Local process vectors:
+			<P_1: (225, 223)>
+---------------------
+2021-10-17 11:35:38,818 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 112'
+	Sender Clock:
+		Local logical clock:(231, 230)
+		Local process vectors:
+			<P_1: (228, 227)>
+---------------------
+2021-10-17 11:35:38,996 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 113'
+	Sender Clock:
+		Local logical clock:(232, 230)
+		Local process vectors:
+			<P_1: (231, 230)>
+---------------------
+2021-10-17 11:35:39,257 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 114'
+	Sender Clock:
+		Local logical clock:(233, 230)
+		Local process vectors:
+			<P_1: (232, 230)>
+---------------------
+2021-10-17 11:35:39,796 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 115'
+	Sender Clock:
+		Local logical clock:(236, 235)
+		Local process vectors:
+			<P_1: (233, 230)>
+---------------------
+2021-10-17 11:35:40,559 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 116'
+	Sender Clock:
+		Local logical clock:(238, 236)
+		Local process vectors:
+			<P_1: (236, 235)>
+---------------------
+2021-10-17 11:35:40,757 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 117'
+	Sender Clock:
+		Local logical clock:(241, 240)
+		Local process vectors:
+			<P_1: (238, 236)>
+---------------------
+2021-10-17 11:35:40,832 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 118'
+	Sender Clock:
+		Local logical clock:(242, 240)
+		Local process vectors:
+			<P_1: (241, 240)>
+---------------------
+2021-10-17 11:35:41,520 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 119'
+	Sender Clock:
+		Local logical clock:(245, 244)
+		Local process vectors:
+			<P_1: (242, 240)>
+---------------------
+2021-10-17 11:35:42,235 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 120'
+	Sender Clock:
+		Local logical clock:(248, 247)
+		Local process vectors:
+			<P_1: (245, 244)>
+---------------------
+2021-10-17 11:35:42,833 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 121'
+	Sender Clock:
+		Local logical clock:(249, 247)
+		Local process vectors:
+			<P_1: (248, 247)>
+---------------------
+2021-10-17 11:35:42,994 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 122'
+	Sender Clock:
+		Local logical clock:(250, 247)
+		Local process vectors:
+			<P_1: (249, 247)>
+---------------------
+2021-10-17 11:35:43,949 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 123'
+	Sender Clock:
+		Local logical clock:(256, 254)
+		Local process vectors:
+			<P_1: (250, 247)>
+---------------------
+2021-10-17 11:35:44,586 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 124'
+	Sender Clock:
+		Local logical clock:(258, 255)
+		Local process vectors:
+			<P_1: (256, 254)>
+---------------------
+2021-10-17 11:35:44,884 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 125'
+	Sender Clock:
+		Local logical clock:(259, 255)
+		Local process vectors:
+			<P_1: (258, 255)>
+---------------------
+2021-10-17 11:35:45,082 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 126'
+	Sender Clock:
+		Local logical clock:(261, 256)
+		Local process vectors:
+			<P_1: (259, 255)>
+---------------------
+2021-10-17 11:35:45,888 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 127'
+	Sender Clock:
+		Local logical clock:(264, 263)
+		Local process vectors:
+			<P_1: (261, 256)>
+---------------------
+2021-10-17 11:35:46,393 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 128'
+	Sender Clock:
+		Local logical clock:(265, 263)
+		Local process vectors:
+			<P_1: (264, 263)>
+---------------------
+2021-10-17 11:35:47,346 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 129'
+	Sender Clock:
+		Local logical clock:(271, 270)
+		Local process vectors:
+			<P_1: (265, 263)>
+---------------------
+2021-10-17 11:35:47,422 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 130'
+	Sender Clock:
+		Local logical clock:(272, 270)
+		Local process vectors:
+			<P_1: (271, 270)>
+---------------------
+2021-10-17 11:35:48,120 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 131'
+	Sender Clock:
+		Local logical clock:(274, 273)
+		Local process vectors:
+			<P_1: (272, 270)>
+---------------------
+2021-10-17 11:35:48,690 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 132'
+	Sender Clock:
+		Local logical clock:(275, 273)
+		Local process vectors:
+			<P_1: (274, 273)>
+---------------------
+2021-10-17 11:35:49,209 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 133'
+	Sender Clock:
+		Local logical clock:(278, 277)
+		Local process vectors:
+			<P_1: (275, 273)>
+---------------------
+2021-10-17 11:35:49,215 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 134'
+	Sender Clock:
+		Local logical clock:(279, 277)
+		Local process vectors:
+			<P_1: (278, 277)>
+---------------------
+2021-10-17 11:35:49,230 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 135'
+	Sender Clock:
+		Local logical clock:(280, 277)
+		Local process vectors:
+			<P_1: (279, 277)>
+---------------------
+2021-10-17 11:35:50,047 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 136'
+	Sender Clock:
+		Local logical clock:(283, 282)
+		Local process vectors:
+			<P_1: (280, 277)>
+---------------------
+2021-10-17 11:35:50,341 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 137'
+	Sender Clock:
+		Local logical clock:(286, 285)
+		Local process vectors:
+			<P_1: (283, 282)>
+---------------------
+2021-10-17 11:35:51,020 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 138'
+	Sender Clock:
+		Local logical clock:(288, 287)
+		Local process vectors:
+			<P_1: (286, 285)>
+---------------------
+2021-10-17 11:35:51,621 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 139'
+	Sender Clock:
+		Local logical clock:(289, 287)
+		Local process vectors:
+			<P_1: (288, 287)>
+---------------------
+2021-10-17 11:35:51,811 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 140'
+	Sender Clock:
+		Local logical clock:(290, 287)
+		Local process vectors:
+			<P_1: (289, 287)>
+---------------------
+2021-10-17 11:35:52,217 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 141'
+	Sender Clock:
+		Local logical clock:(291, 287)
+		Local process vectors:
+			<P_1: (290, 287)>
+---------------------
+2021-10-17 11:35:52,344 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 142'
+	Sender Clock:
+		Local logical clock:(292, 287)
+		Local process vectors:
+			<P_1: (291, 287)>
+---------------------
+2021-10-17 11:35:52,720 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 143'
+	Sender Clock:
+		Local logical clock:(293, 287)
+		Local process vectors:
+			<P_1: (292, 287)>
+---------------------
+2021-10-17 11:35:52,862 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 144'
+	Sender Clock:
+		Local logical clock:(294, 287)
+		Local process vectors:
+			<P_1: (293, 287)>
+---------------------
+2021-10-17 11:35:52,958 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 145'
+	Sender Clock:
+		Local logical clock:(295, 287)
+		Local process vectors:
+			<P_1: (294, 287)>
+---------------------
+2021-10-17 11:35:53,293 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 146'
+	Sender Clock:
+		Local logical clock:(296, 287)
+		Local process vectors:
+			<P_1: (295, 287)>
+---------------------
+2021-10-17 11:35:54,031 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 147'
+	Sender Clock:
+		Local logical clock:(297, 287)
+		Local process vectors:
+			<P_1: (296, 287)>
+---------------------
+2021-10-17 11:35:54,079 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 148'
+	Sender Clock:
+		Local logical clock:(298, 287)
+		Local process vectors:
+			<P_1: (297, 287)>
+---------------------
+2021-10-17 11:35:54,393 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 149'
+	Sender Clock:
+		Local logical clock:(299, 287)
+		Local process vectors:
+			<P_1: (298, 287)>
+---------------------
+2021-10-17 11:35:54,532 - __sender_log__ - INFO: 
+Send Packet Info:
+	Sender ID: 0
+	Receiver ID: 1
+	Packet Content: b'Message from 0, number 150'
+	Sender Clock:
+		Local logical clock:(300, 287)
+		Local process vectors:
+			<P_1: (299, 287)>
+---------------------
+2021-10-17 11:35:55,437 - __sender_log__ - WARNING: 
+SENDER #140085175105280: Close connection to 127.0.0.1:60001
+---------------------

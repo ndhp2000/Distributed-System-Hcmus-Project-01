@@ -4,7 +4,7 @@ import socket
 import threading
 import time
 
-from constant import INT_SIZE, INT_REPR
+from constant import INT_SIZE, INT_REPR, MAX_MESSAGE
 
 logger = logging.getLogger("__sender_log__")
 
@@ -32,10 +32,12 @@ class SenderWorker(threading.Thread):
                 logger.warning(
                     'SENDER #{}: connection to {}:{} failed, retry after 500 milliseconds.'.format(self.ident, self.ip,
                                                                                                    self.port))
-                time.sleep(2)
+                time.sleep(0.5)
 
         while not self.shutdown_flag.is_set():
             try:
+                if self.message_count == MAX_MESSAGE:
+                    break
                 self.message_count = self.message_count + 1
                 message = bytes("Message from {}, number {}".format(self.instance_id, self.message_count), 'utf-8')
                 message = self.ses_clock.send(self.destination_id, message)
@@ -43,7 +45,7 @@ class SenderWorker(threading.Thread):
                 message = data_size.to_bytes(INT_SIZE, INT_REPR, signed=True) + message
                 sender.send(message)
                 logger.debug('SENDER #{}: send message {} to {}:{}'.format(self.ident, message, self.ip, self.port))
-                time.sleep(random.random())
+                time.sleep(random.random())  # Stop sending for random time
             except BrokenPipeError:
                 break
         sender.close()

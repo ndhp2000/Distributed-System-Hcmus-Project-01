@@ -1,0 +1,4946 @@
+2021-10-17 11:29:08,020 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 1'
+	Packet Clock:
+		t_m: (-1, -1, -1)
+		tP_snd: (0, 1, 0)
+	Receiver Logical Clock (tP_rcv):
+		(0, 0, 0)
+	Status: delivering
+	Delivery Condition:(0, 0, 0) > (-1, -1, -1)
+---------------------
+2021-10-17 11:29:08,236 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 1'
+	Packet Clock:
+		t_m: (-1, -1, -1)
+		tP_snd: (0, 0, 1)
+	Receiver Logical Clock (tP_rcv):
+		(1, 1, 0)
+	Status: delivering
+	Delivery Condition:(1, 1, 0) > (-1, -1, -1)
+---------------------
+2021-10-17 11:29:08,424 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 2'
+	Packet Clock:
+		t_m: (0, 1, 1)
+		tP_snd: (5, 6, 4)
+	Receiver Logical Clock (tP_rcv):
+		(5, 1, 1)
+	Status: delivering
+	Delivery Condition:(5, 1, 1) > (0, 1, 1)
+---------------------
+2021-10-17 11:29:08,939 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 2'
+	Packet Clock:
+		t_m: (5, 6, 4)
+		tP_snd: (8, 9, 8)
+	Receiver Logical Clock (tP_rcv):
+		(8, 6, 4)
+	Status: delivering
+	Delivery Condition:(8, 6, 4) > (5, 6, 4)
+---------------------
+2021-10-17 11:29:09,065 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 3'
+	Packet Clock:
+		t_m: (5, 6, 4)
+		tP_snd: (7, 10, 4)
+	Receiver Logical Clock (tP_rcv):
+		(9, 9, 8)
+	Status: delivering
+	Delivery Condition:(9, 9, 8) > (5, 6, 4)
+---------------------
+2021-10-17 11:29:09,542 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 3'
+	Packet Clock:
+		t_m: (8, 10, 8)
+		tP_snd: (11, 12, 12)
+	Receiver Logical Clock (tP_rcv):
+		(11, 10, 8)
+	Status: delivering
+	Delivery Condition:(11, 10, 8) > (8, 10, 8)
+---------------------
+2021-10-17 11:29:10,330 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 4'
+	Packet Clock:
+		t_m: (13, 18, 14)
+		tP_snd: (15, 19, 19)
+	Receiver Logical Clock (tP_rcv):
+		(15, 12, 12)
+	Status: buffered
+	Delivery Condition:(15, 12, 12) > (13, 18, 14)
+---------------------
+2021-10-17 11:29:10,822 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 5'
+	Packet Clock:
+		t_m: (15, 19, 19)
+		tP_snd: (17, 24, 24)
+	Receiver Logical Clock (tP_rcv):
+		(17, 12, 12)
+	Status: buffered
+	Delivery Condition:(17, 12, 12) > (15, 19, 19)
+---------------------
+2021-10-17 11:29:10,936 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 6'
+	Packet Clock:
+		t_m: (16, 25, 21)
+		tP_snd: (16, 27, 21)
+	Receiver Logical Clock (tP_rcv):
+		(18, 12, 12)
+	Status: buffered
+	Delivery Condition:(18, 12, 12) > (16, 25, 21)
+---------------------
+2021-10-17 11:29:10,937 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 5'
+	Packet Clock:
+		t_m: (15, 19, 19)
+		tP_snd: (16, 25, 21)
+	Receiver Logical Clock (tP_rcv):
+		(18, 12, 12)
+	Status: buffered
+	Delivery Condition:(18, 12, 12) > (15, 19, 19)
+---------------------
+2021-10-17 11:29:10,937 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 4'
+	Packet Clock:
+		t_m: (11, 12, 12)
+		tP_snd: (13, 18, 14)
+	Receiver Logical Clock (tP_rcv):
+		(18, 12, 12)
+	Status: delivering
+	Delivery Condition:(18, 12, 12) > (11, 12, 12)
+---------------------
+2021-10-17 11:29:11,323 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 7'
+	Packet Clock:
+		t_m: (17, 27, 24)
+		tP_snd: (21, 31, 28)
+	Receiver Logical Clock (tP_rcv):
+		(21, 18, 14)
+	Status: buffered
+	Delivery Condition:(21, 18, 14) > (17, 27, 24)
+---------------------
+2021-10-17 11:29:11,324 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 4'
+	Packet Clock:
+		t_m: (13, 18, 14)
+		tP_snd: (15, 19, 19)
+	Receiver Logical Clock (tP_rcv):
+		(21, 18, 14)
+	Status: delivering from buffer
+	Delivery Condition:(21, 18, 14) > (13, 18, 14)
+---------------------
+2021-10-17 11:29:11,324 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 5'
+	Packet Clock:
+		t_m: (15, 19, 19)
+		tP_snd: (17, 24, 24)
+	Receiver Logical Clock (tP_rcv):
+		(22, 19, 19)
+	Status: delivering from buffer
+	Delivery Condition:(22, 19, 19) > (15, 19, 19)
+---------------------
+2021-10-17 11:29:11,324 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 5'
+	Packet Clock:
+		t_m: (15, 19, 19)
+		tP_snd: (16, 25, 21)
+	Receiver Logical Clock (tP_rcv):
+		(23, 24, 24)
+	Status: delivering from buffer
+	Delivery Condition:(23, 24, 24) > (15, 19, 19)
+---------------------
+2021-10-17 11:29:11,325 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 6'
+	Packet Clock:
+		t_m: (16, 25, 21)
+		tP_snd: (16, 27, 21)
+	Receiver Logical Clock (tP_rcv):
+		(24, 25, 24)
+	Status: delivering from buffer
+	Delivery Condition:(24, 25, 24) > (16, 25, 21)
+---------------------
+2021-10-17 11:29:11,325 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 7'
+	Packet Clock:
+		t_m: (17, 27, 24)
+		tP_snd: (21, 31, 28)
+	Receiver Logical Clock (tP_rcv):
+		(25, 27, 24)
+	Status: delivering from buffer
+	Delivery Condition:(25, 27, 24) > (17, 27, 24)
+---------------------
+2021-10-17 11:29:11,420 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 8'
+	Packet Clock:
+		t_m: (21, 31, 28)
+		tP_snd: (21, 32, 28)
+	Receiver Logical Clock (tP_rcv):
+		(26, 31, 28)
+	Status: delivering
+	Delivery Condition:(26, 31, 28) > (21, 31, 28)
+---------------------
+2021-10-17 11:29:11,772 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 9'
+	Packet Clock:
+		t_m: (21, 32, 28)
+		tP_snd: (28, 35, 28)
+	Receiver Logical Clock (tP_rcv):
+		(29, 32, 28)
+	Status: delivering
+	Delivery Condition:(29, 32, 28) > (21, 32, 28)
+---------------------
+2021-10-17 11:29:12,198 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 7'
+	Packet Clock:
+		t_m: (28, 35, 29)
+		tP_snd: (29, 36, 35)
+	Receiver Logical Clock (tP_rcv):
+		(31, 35, 28)
+	Status: buffered
+	Delivery Condition:(31, 35, 28) > (28, 35, 29)
+---------------------
+2021-10-17 11:29:12,199 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 6'
+	Packet Clock:
+		t_m: (17, 24, 24)
+		tP_snd: (21, 24, 29)
+	Receiver Logical Clock (tP_rcv):
+		(31, 35, 28)
+	Status: delivering
+	Delivery Condition:(31, 35, 28) > (17, 24, 24)
+---------------------
+2021-10-17 11:29:12,832 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 11'
+	Packet Clock:
+		t_m: (31, 39, 35)
+		tP_snd: (34, 42, 38)
+	Receiver Logical Clock (tP_rcv):
+		(34, 35, 29)
+	Status: buffered
+	Delivery Condition:(34, 35, 29) > (31, 39, 35)
+---------------------
+2021-10-17 11:29:12,833 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 7'
+	Packet Clock:
+		t_m: (28, 35, 29)
+		tP_snd: (29, 36, 35)
+	Receiver Logical Clock (tP_rcv):
+		(34, 35, 29)
+	Status: delivering from buffer
+	Delivery Condition:(34, 35, 29) > (28, 35, 29)
+---------------------
+2021-10-17 11:29:12,833 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 10'
+	Packet Clock:
+		t_m: (28, 35, 29)
+		tP_snd: (31, 39, 34)
+	Receiver Logical Clock (tP_rcv):
+		(35, 36, 35)
+	Status: delivering
+	Delivery Condition:(35, 36, 35) > (28, 35, 29)
+---------------------
+2021-10-17 11:29:12,931 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 8'
+	Packet Clock:
+		t_m: (31, 39, 35)
+		tP_snd: (34, 41, 41)
+	Receiver Logical Clock (tP_rcv):
+		(37, 39, 35)
+	Status: delivering
+	Delivery Condition:(37, 39, 35) > (31, 39, 35)
+---------------------
+2021-10-17 11:29:12,995 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 12'
+	Packet Clock:
+		t_m: (34, 42, 38)
+		tP_snd: (37, 45, 40)
+	Receiver Logical Clock (tP_rcv):
+		(38, 41, 41)
+	Status: buffered
+	Delivery Condition:(38, 41, 41) > (34, 42, 38)
+---------------------
+2021-10-17 11:29:12,995 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 11'
+	Packet Clock:
+		t_m: (31, 39, 35)
+		tP_snd: (34, 42, 38)
+	Receiver Logical Clock (tP_rcv):
+		(38, 41, 41)
+	Status: delivering from buffer
+	Delivery Condition:(38, 41, 41) > (31, 39, 35)
+---------------------
+2021-10-17 11:29:12,996 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 12'
+	Packet Clock:
+		t_m: (34, 42, 38)
+		tP_snd: (37, 45, 40)
+	Receiver Logical Clock (tP_rcv):
+		(39, 42, 41)
+	Status: delivering from buffer
+	Delivery Condition:(39, 42, 41) > (34, 42, 38)
+---------------------
+2021-10-17 11:29:14,266 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 14'
+	Packet Clock:
+		t_m: (41, 47, 44)
+		tP_snd: (42, 51, 46)
+	Receiver Logical Clock (tP_rcv):
+		(44, 45, 41)
+	Status: buffered
+	Delivery Condition:(44, 45, 41) > (41, 47, 44)
+---------------------
+2021-10-17 11:29:14,267 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 13'
+	Packet Clock:
+		t_m: (37, 45, 40)
+		tP_snd: (37, 47, 40)
+	Receiver Logical Clock (tP_rcv):
+		(44, 45, 41)
+	Status: delivering
+	Delivery Condition:(44, 45, 41) > (37, 45, 40)
+---------------------
+2021-10-17 11:29:14,379 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 10'
+	Packet Clock:
+		t_m: (42, 51, 46)
+		tP_snd: (46, 52, 51)
+	Receiver Logical Clock (tP_rcv):
+		(46, 47, 41)
+	Status: buffered
+	Delivery Condition:(46, 47, 41) > (42, 51, 46)
+---------------------
+2021-10-17 11:29:14,380 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 9'
+	Packet Clock:
+		t_m: (37, 45, 41)
+		tP_snd: (41, 46, 44)
+	Receiver Logical Clock (tP_rcv):
+		(46, 47, 41)
+	Status: delivering
+	Delivery Condition:(46, 47, 41) > (37, 45, 41)
+---------------------
+2021-10-17 11:29:14,882 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 15'
+	Packet Clock:
+		t_m: (46, 52, 51)
+		tP_snd: (49, 55, 53)
+	Receiver Logical Clock (tP_rcv):
+		(51, 47, 44)
+	Status: buffered
+	Delivery Condition:(51, 47, 44) > (46, 52, 51)
+---------------------
+2021-10-17 11:29:14,882 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 14'
+	Packet Clock:
+		t_m: (41, 47, 44)
+		tP_snd: (42, 51, 46)
+	Receiver Logical Clock (tP_rcv):
+		(51, 47, 44)
+	Status: delivering from buffer
+	Delivery Condition:(51, 47, 44) > (41, 47, 44)
+---------------------
+2021-10-17 11:29:14,883 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 10'
+	Packet Clock:
+		t_m: (42, 51, 46)
+		tP_snd: (46, 52, 51)
+	Receiver Logical Clock (tP_rcv):
+		(52, 51, 46)
+	Status: delivering from buffer
+	Delivery Condition:(52, 51, 46) > (42, 51, 46)
+---------------------
+2021-10-17 11:29:14,883 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 15'
+	Packet Clock:
+		t_m: (46, 52, 51)
+		tP_snd: (49, 55, 53)
+	Receiver Logical Clock (tP_rcv):
+		(53, 52, 51)
+	Status: delivering from buffer
+	Delivery Condition:(53, 52, 51) > (46, 52, 51)
+---------------------
+2021-10-17 11:29:15,331 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 11'
+	Packet Clock:
+		t_m: (49, 55, 53)
+		tP_snd: (57, 57, 60)
+	Receiver Logical Clock (tP_rcv):
+		(57, 55, 53)
+	Status: delivering
+	Delivery Condition:(57, 55, 53) > (49, 55, 53)
+---------------------
+2021-10-17 11:29:15,698 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 16'
+	Packet Clock:
+		t_m: (49, 55, 53)
+		tP_snd: (56, 60, 55)
+	Receiver Logical Clock (tP_rcv):
+		(58, 57, 60)
+	Status: delivering
+	Delivery Condition:(58, 57, 60) > (49, 55, 53)
+---------------------
+2021-10-17 11:29:16,063 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 12'
+	Packet Clock:
+		t_m: (57, 57, 60)
+		tP_snd: (61, 60, 65)
+	Receiver Logical Clock (tP_rcv):
+		(61, 60, 60)
+	Status: delivering
+	Delivery Condition:(61, 60, 60) > (57, 57, 60)
+---------------------
+2021-10-17 11:29:16,348 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 13'
+	Packet Clock:
+		t_m: (61, 60, 65)
+		tP_snd: (63, 60, 68)
+	Receiver Logical Clock (tP_rcv):
+		(63, 60, 65)
+	Status: delivering
+	Delivery Condition:(63, 60, 65) > (61, 60, 65)
+---------------------
+2021-10-17 11:29:16,675 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 17'
+	Packet Clock:
+		t_m: (61, 60, 65)
+		tP_snd: (66, 67, 68)
+	Receiver Logical Clock (tP_rcv):
+		(66, 60, 68)
+	Status: delivering
+	Delivery Condition:(66, 60, 68) > (61, 60, 65)
+---------------------
+2021-10-17 11:29:17,110 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 14'
+	Packet Clock:
+		t_m: (63, 60, 68)
+		tP_snd: (65, 65, 73)
+	Receiver Logical Clock (tP_rcv):
+		(68, 67, 68)
+	Status: delivering
+	Delivery Condition:(68, 67, 68) > (63, 60, 68)
+---------------------
+2021-10-17 11:29:17,438 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 18'
+	Packet Clock:
+		t_m: (66, 67, 73)
+		tP_snd: (66, 75, 75)
+	Receiver Logical Clock (tP_rcv):
+		(70, 67, 73)
+	Status: delivering
+	Delivery Condition:(70, 67, 73) > (66, 67, 73)
+---------------------
+2021-10-17 11:29:17,575 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 15'
+	Packet Clock:
+		t_m: (66, 75, 75)
+		tP_snd: (70, 76, 81)
+	Receiver Logical Clock (tP_rcv):
+		(71, 75, 75)
+	Status: delivering
+	Delivery Condition:(71, 75, 75) > (66, 75, 75)
+---------------------
+2021-10-17 11:29:17,715 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 19'
+	Packet Clock:
+		t_m: (66, 75, 75)
+		tP_snd: (66, 77, 75)
+	Receiver Logical Clock (tP_rcv):
+		(73, 76, 81)
+	Status: delivering
+	Delivery Condition:(73, 76, 81) > (66, 75, 75)
+---------------------
+2021-10-17 11:29:18,297 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 20'
+	Packet Clock:
+		t_m: (70, 77, 82)
+		tP_snd: (78, 83, 87)
+	Receiver Logical Clock (tP_rcv):
+		(78, 77, 81)
+	Status: buffered
+	Delivery Condition:(78, 77, 81) > (70, 77, 82)
+---------------------
+2021-10-17 11:29:18,491 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 17'
+	Packet Clock:
+		t_m: (78, 83, 87)
+		tP_snd: (78, 84, 89)
+	Receiver Logical Clock (tP_rcv):
+		(78, 77, 81)
+	Status: buffered
+	Delivery Condition:(78, 77, 81) > (78, 83, 87)
+---------------------
+2021-10-17 11:29:18,492 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 16'
+	Packet Clock:
+		t_m: (70, 76, 81)
+		tP_snd: (70, 76, 82)
+	Receiver Logical Clock (tP_rcv):
+		(78, 77, 81)
+	Status: delivering
+	Delivery Condition:(78, 77, 81) > (70, 76, 81)
+---------------------
+2021-10-17 11:29:18,654 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 18'
+	Packet Clock:
+		t_m: (78, 84, 89)
+		tP_snd: (78, 85, 91)
+	Receiver Logical Clock (tP_rcv):
+		(80, 77, 82)
+	Status: buffered
+	Delivery Condition:(80, 77, 82) > (78, 84, 89)
+---------------------
+2021-10-17 11:29:18,654 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 20'
+	Packet Clock:
+		t_m: (70, 77, 82)
+		tP_snd: (78, 83, 87)
+	Receiver Logical Clock (tP_rcv):
+		(80, 77, 82)
+	Status: delivering from buffer
+	Delivery Condition:(80, 77, 82) > (70, 77, 82)
+---------------------
+2021-10-17 11:29:18,655 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 17'
+	Packet Clock:
+		t_m: (78, 83, 87)
+		tP_snd: (78, 84, 89)
+	Receiver Logical Clock (tP_rcv):
+		(81, 83, 87)
+	Status: delivering from buffer
+	Delivery Condition:(81, 83, 87) > (78, 83, 87)
+---------------------
+2021-10-17 11:29:18,655 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 18'
+	Packet Clock:
+		t_m: (78, 84, 89)
+		tP_snd: (78, 85, 91)
+	Receiver Logical Clock (tP_rcv):
+		(82, 84, 89)
+	Status: delivering from buffer
+	Delivery Condition:(82, 84, 89) > (78, 84, 89)
+---------------------
+2021-10-17 11:29:18,927 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 22'
+	Packet Clock:
+		t_m: (80, 87, 87)
+		tP_snd: (80, 88, 87)
+	Receiver Logical Clock (tP_rcv):
+		(83, 85, 91)
+	Status: buffered
+	Delivery Condition:(83, 85, 91) > (80, 87, 87)
+---------------------
+2021-10-17 11:29:18,929 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 21'
+	Packet Clock:
+		t_m: (78, 83, 87)
+		tP_snd: (80, 87, 87)
+	Receiver Logical Clock (tP_rcv):
+		(83, 85, 91)
+	Status: delivering
+	Delivery Condition:(83, 85, 91) > (78, 83, 87)
+---------------------
+2021-10-17 11:29:19,421 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 23'
+	Packet Clock:
+		t_m: (80, 88, 92)
+		tP_snd: (80, 92, 93)
+	Receiver Logical Clock (tP_rcv):
+		(85, 87, 91)
+	Status: buffered
+	Delivery Condition:(85, 87, 91) > (80, 88, 92)
+---------------------
+2021-10-17 11:29:19,422 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 22'
+	Packet Clock:
+		t_m: (80, 87, 87)
+		tP_snd: (80, 88, 87)
+	Receiver Logical Clock (tP_rcv):
+		(85, 87, 91)
+	Status: delivering from buffer
+	Delivery Condition:(85, 87, 91) > (80, 87, 87)
+---------------------
+2021-10-17 11:29:19,484 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 20'
+	Packet Clock:
+		t_m: (80, 88, 92)
+		tP_snd: (87, 91, 98)
+	Receiver Logical Clock (tP_rcv):
+		(87, 88, 91)
+	Status: buffered
+	Delivery Condition:(87, 88, 91) > (80, 88, 92)
+---------------------
+2021-10-17 11:29:19,485 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 19'
+	Packet Clock:
+		t_m: (78, 85, 91)
+		tP_snd: (78, 85, 92)
+	Receiver Logical Clock (tP_rcv):
+		(87, 88, 91)
+	Status: delivering
+	Delivery Condition:(87, 88, 91) > (78, 85, 91)
+---------------------
+2021-10-17 11:29:20,075 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 24'
+	Packet Clock:
+		t_m: (87, 92, 98)
+		tP_snd: (89, 97, 101)
+	Receiver Logical Clock (tP_rcv):
+		(89, 88, 92)
+	Status: buffered
+	Delivery Condition:(89, 88, 92) > (87, 92, 98)
+---------------------
+2021-10-17 11:29:20,076 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 23'
+	Packet Clock:
+		t_m: (80, 88, 92)
+		tP_snd: (80, 92, 93)
+	Receiver Logical Clock (tP_rcv):
+		(89, 88, 92)
+	Status: delivering from buffer
+	Delivery Condition:(89, 88, 92) > (80, 88, 92)
+---------------------
+2021-10-17 11:29:20,076 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 20'
+	Packet Clock:
+		t_m: (80, 88, 92)
+		tP_snd: (87, 91, 98)
+	Receiver Logical Clock (tP_rcv):
+		(90, 92, 93)
+	Status: delivering from buffer
+	Delivery Condition:(90, 92, 93) > (80, 88, 92)
+---------------------
+2021-10-17 11:29:20,077 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 24'
+	Packet Clock:
+		t_m: (87, 92, 98)
+		tP_snd: (89, 97, 101)
+	Receiver Logical Clock (tP_rcv):
+		(91, 92, 98)
+	Status: delivering from buffer
+	Delivery Condition:(91, 92, 98) > (87, 92, 98)
+---------------------
+2021-10-17 11:29:20,284 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 21'
+	Packet Clock:
+		t_m: (89, 97, 101)
+		tP_snd: (93, 98, 104)
+	Receiver Logical Clock (tP_rcv):
+		(93, 97, 101)
+	Status: delivering
+	Delivery Condition:(93, 97, 101) > (89, 97, 101)
+---------------------
+2021-10-17 11:29:20,578 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 22'
+	Packet Clock:
+		t_m: (93, 98, 104)
+		tP_snd: (95, 98, 106)
+	Receiver Logical Clock (tP_rcv):
+		(96, 98, 104)
+	Status: delivering
+	Delivery Condition:(96, 98, 104) > (93, 98, 104)
+---------------------
+2021-10-17 11:29:21,010 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 25'
+	Packet Clock:
+		t_m: (89, 97, 101)
+		tP_snd: (96, 100, 104)
+	Receiver Logical Clock (tP_rcv):
+		(98, 98, 106)
+	Status: delivering
+	Delivery Condition:(98, 98, 106) > (89, 97, 101)
+---------------------
+2021-10-17 11:29:21,275 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 23'
+	Packet Clock:
+		t_m: (96, 100, 106)
+		tP_snd: (96, 101, 109)
+	Receiver Logical Clock (tP_rcv):
+		(99, 100, 106)
+	Status: delivering
+	Delivery Condition:(99, 100, 106) > (96, 100, 106)
+---------------------
+2021-10-17 11:29:21,745 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 24'
+	Packet Clock:
+		t_m: (96, 101, 109)
+		tP_snd: (102, 102, 114)
+	Receiver Logical Clock (tP_rcv):
+		(103, 101, 109)
+	Status: delivering
+	Delivery Condition:(103, 101, 109) > (96, 101, 109)
+---------------------
+2021-10-17 11:29:21,913 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 26'
+	Packet Clock:
+		t_m: (102, 102, 114)
+		tP_snd: (103, 110, 115)
+	Receiver Logical Clock (tP_rcv):
+		(104, 102, 114)
+	Status: delivering
+	Delivery Condition:(104, 102, 114) > (102, 102, 114)
+---------------------
+2021-10-17 11:29:22,260 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 25'
+	Packet Clock:
+		t_m: (102, 102, 114)
+		tP_snd: (102, 103, 117)
+	Receiver Logical Clock (tP_rcv):
+		(106, 110, 115)
+	Status: delivering
+	Delivery Condition:(106, 110, 115) > (102, 102, 114)
+---------------------
+2021-10-17 11:29:22,351 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 27'
+	Packet Clock:
+		t_m: (103, 110, 115)
+		tP_snd: (103, 111, 115)
+	Receiver Logical Clock (tP_rcv):
+		(108, 110, 117)
+	Status: delivering
+	Delivery Condition:(108, 110, 117) > (103, 110, 115)
+---------------------
+2021-10-17 11:29:22,451 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 28'
+	Packet Clock:
+		t_m: (103, 111, 115)
+		tP_snd: (108, 113, 117)
+	Receiver Logical Clock (tP_rcv):
+		(110, 111, 117)
+	Status: delivering
+	Delivery Condition:(110, 111, 117) > (103, 111, 115)
+---------------------
+2021-10-17 11:29:22,629 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 26'
+	Packet Clock:
+		t_m: (102, 103, 117)
+		tP_snd: (102, 104, 119)
+	Receiver Logical Clock (tP_rcv):
+		(112, 113, 117)
+	Status: delivering
+	Delivery Condition:(112, 113, 117) > (102, 103, 117)
+---------------------
+2021-10-17 11:29:23,199 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 29'
+	Packet Clock:
+		t_m: (108, 113, 119)
+		tP_snd: (114, 118, 120)
+	Receiver Logical Clock (tP_rcv):
+		(114, 113, 119)
+	Status: delivering
+	Delivery Condition:(114, 113, 119) > (108, 113, 119)
+---------------------
+2021-10-17 11:29:23,519 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 30'
+	Packet Clock:
+		t_m: (114, 118, 120)
+		tP_snd: (114, 120, 120)
+	Receiver Logical Clock (tP_rcv):
+		(116, 118, 120)
+	Status: delivering
+	Delivery Condition:(116, 118, 120) > (114, 118, 120)
+---------------------
+2021-10-17 11:29:23,636 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 28'
+	Packet Clock:
+		t_m: (116, 120, 126)
+		tP_snd: (118, 121, 130)
+	Receiver Logical Clock (tP_rcv):
+		(118, 120, 120)
+	Status: buffered
+	Delivery Condition:(118, 120, 120) > (116, 120, 126)
+---------------------
+2021-10-17 11:29:23,636 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 27'
+	Packet Clock:
+		t_m: (114, 118, 120)
+		tP_snd: (116, 119, 126)
+	Receiver Logical Clock (tP_rcv):
+		(118, 120, 120)
+	Status: delivering
+	Delivery Condition:(118, 120, 120) > (114, 118, 120)
+---------------------
+2021-10-17 11:29:23,781 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 29'
+	Packet Clock:
+		t_m: (118, 121, 130)
+		tP_snd: (118, 122, 132)
+	Receiver Logical Clock (tP_rcv):
+		(119, 120, 126)
+	Status: buffered
+	Delivery Condition:(119, 120, 126) > (118, 121, 130)
+---------------------
+2021-10-17 11:29:23,781 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 28'
+	Packet Clock:
+		t_m: (116, 120, 126)
+		tP_snd: (118, 121, 130)
+	Receiver Logical Clock (tP_rcv):
+		(119, 120, 126)
+	Status: delivering from buffer
+	Delivery Condition:(119, 120, 126) > (116, 120, 126)
+---------------------
+2021-10-17 11:29:23,781 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 29'
+	Packet Clock:
+		t_m: (118, 121, 130)
+		tP_snd: (118, 122, 132)
+	Receiver Logical Clock (tP_rcv):
+		(120, 121, 130)
+	Status: delivering from buffer
+	Delivery Condition:(120, 121, 130) > (118, 121, 130)
+---------------------
+2021-10-17 11:29:24,178 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 31'
+	Packet Clock:
+		t_m: (114, 120, 120)
+		tP_snd: (114, 125, 120)
+	Receiver Logical Clock (tP_rcv):
+		(123, 122, 132)
+	Status: delivering
+	Delivery Condition:(123, 122, 132) > (114, 120, 120)
+---------------------
+2021-10-17 11:29:24,818 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 32'
+	Packet Clock:
+		t_m: (122, 125, 135)
+		tP_snd: (125, 131, 137)
+	Receiver Logical Clock (tP_rcv):
+		(127, 125, 132)
+	Status: buffered
+	Delivery Condition:(127, 125, 132) > (122, 125, 135)
+---------------------
+2021-10-17 11:29:24,990 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 31'
+	Packet Clock:
+		t_m: (122, 125, 135)
+		tP_snd: (128, 130, 142)
+	Receiver Logical Clock (tP_rcv):
+		(128, 125, 132)
+	Status: buffered
+	Delivery Condition:(128, 125, 132) > (122, 125, 135)
+---------------------
+2021-10-17 11:29:24,990 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 30'
+	Packet Clock:
+		t_m: (118, 122, 132)
+		tP_snd: (122, 123, 135)
+	Receiver Logical Clock (tP_rcv):
+		(128, 125, 132)
+	Status: delivering
+	Delivery Condition:(128, 125, 132) > (118, 122, 132)
+---------------------
+2021-10-17 11:29:25,443 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 34'
+	Packet Clock:
+		t_m: (131, 135, 145)
+		tP_snd: (131, 136, 145)
+	Receiver Logical Clock (tP_rcv):
+		(131, 125, 135)
+	Status: buffered
+	Delivery Condition:(131, 125, 135) > (131, 135, 145)
+---------------------
+2021-10-17 11:29:25,443 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 32'
+	Packet Clock:
+		t_m: (122, 125, 135)
+		tP_snd: (125, 131, 137)
+	Receiver Logical Clock (tP_rcv):
+		(131, 125, 135)
+	Status: delivering from buffer
+	Delivery Condition:(131, 125, 135) > (122, 125, 135)
+---------------------
+2021-10-17 11:29:25,444 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 31'
+	Packet Clock:
+		t_m: (122, 125, 135)
+		tP_snd: (128, 130, 142)
+	Receiver Logical Clock (tP_rcv):
+		(132, 131, 137)
+	Status: delivering from buffer
+	Delivery Condition:(132, 131, 137) > (122, 125, 135)
+---------------------
+2021-10-17 11:29:25,444 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 33'
+	Packet Clock:
+		t_m: (128, 131, 142)
+		tP_snd: (131, 135, 145)
+	Receiver Logical Clock (tP_rcv):
+		(133, 131, 142)
+	Status: delivering
+	Delivery Condition:(133, 131, 142) > (128, 131, 142)
+---------------------
+2021-10-17 11:29:25,540 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 32'
+	Packet Clock:
+		t_m: (128, 131, 142)
+		tP_snd: (130, 132, 147)
+	Receiver Logical Clock (tP_rcv):
+		(134, 135, 145)
+	Status: delivering
+	Delivery Condition:(134, 135, 145) > (128, 131, 142)
+---------------------
+2021-10-17 11:29:26,259 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 33'
+	Packet Clock:
+		t_m: (131, 136, 147)
+		tP_snd: (137, 137, 150)
+	Receiver Logical Clock (tP_rcv):
+		(138, 135, 147)
+	Status: buffered
+	Delivery Condition:(138, 135, 147) > (131, 136, 147)
+---------------------
+2021-10-17 11:29:26,259 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 34'
+	Packet Clock:
+		t_m: (131, 135, 145)
+		tP_snd: (131, 136, 145)
+	Receiver Logical Clock (tP_rcv):
+		(138, 135, 147)
+	Status: delivering from buffer
+	Delivery Condition:(138, 135, 147) > (131, 135, 145)
+---------------------
+2021-10-17 11:29:26,259 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 33'
+	Packet Clock:
+		t_m: (131, 136, 147)
+		tP_snd: (137, 137, 150)
+	Receiver Logical Clock (tP_rcv):
+		(139, 136, 147)
+	Status: delivering from buffer
+	Delivery Condition:(139, 136, 147) > (131, 136, 147)
+---------------------
+2021-10-17 11:29:26,320 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 35'
+	Packet Clock:
+		t_m: (131, 136, 145)
+		tP_snd: (131, 138, 145)
+	Receiver Logical Clock (tP_rcv):
+		(141, 137, 150)
+	Status: delivering
+	Delivery Condition:(141, 137, 150) > (131, 136, 145)
+---------------------
+2021-10-17 11:29:26,989 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 34'
+	Packet Clock:
+		t_m: (137, 138, 150)
+		tP_snd: (146, 145, 157)
+	Receiver Logical Clock (tP_rcv):
+		(146, 138, 150)
+	Status: delivering
+	Delivery Condition:(146, 138, 150) > (137, 138, 150)
+---------------------
+2021-10-17 11:29:27,310 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 36'
+	Packet Clock:
+		t_m: (146, 145, 157)
+		tP_snd: (149, 150, 159)
+	Receiver Logical Clock (tP_rcv):
+		(149, 145, 157)
+	Status: delivering
+	Delivery Condition:(149, 145, 157) > (146, 145, 157)
+---------------------
+2021-10-17 11:29:27,588 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 35'
+	Packet Clock:
+		t_m: (146, 145, 157)
+		tP_snd: (146, 147, 161)
+	Receiver Logical Clock (tP_rcv):
+		(150, 150, 159)
+	Status: delivering
+	Delivery Condition:(150, 150, 159) > (146, 145, 157)
+---------------------
+2021-10-17 11:29:28,083 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 38'
+	Packet Clock:
+		t_m: (149, 151, 159)
+		tP_snd: (152, 155, 161)
+	Receiver Logical Clock (tP_rcv):
+		(154, 150, 161)
+	Status: buffered
+	Delivery Condition:(154, 150, 161) > (149, 151, 159)
+---------------------
+2021-10-17 11:29:28,084 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 37'
+	Packet Clock:
+		t_m: (149, 150, 159)
+		tP_snd: (149, 151, 159)
+	Receiver Logical Clock (tP_rcv):
+		(154, 150, 161)
+	Status: delivering
+	Delivery Condition:(154, 150, 161) > (149, 150, 159)
+---------------------
+2021-10-17 11:29:28,253 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 39'
+	Packet Clock:
+		t_m: (152, 155, 161)
+		tP_snd: (152, 156, 161)
+	Receiver Logical Clock (tP_rcv):
+		(156, 151, 161)
+	Status: buffered
+	Delivery Condition:(156, 151, 161) > (152, 155, 161)
+---------------------
+2021-10-17 11:29:28,253 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 38'
+	Packet Clock:
+		t_m: (149, 151, 159)
+		tP_snd: (152, 155, 161)
+	Receiver Logical Clock (tP_rcv):
+		(156, 151, 161)
+	Status: delivering from buffer
+	Delivery Condition:(156, 151, 161) > (149, 151, 159)
+---------------------
+2021-10-17 11:29:28,254 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 39'
+	Packet Clock:
+		t_m: (152, 155, 161)
+		tP_snd: (152, 156, 161)
+	Receiver Logical Clock (tP_rcv):
+		(157, 155, 161)
+	Status: delivering from buffer
+	Delivery Condition:(157, 155, 161) > (152, 155, 161)
+---------------------
+2021-10-17 11:29:28,372 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 36'
+	Packet Clock:
+		t_m: (149, 151, 161)
+		tP_snd: (156, 154, 168)
+	Receiver Logical Clock (tP_rcv):
+		(159, 156, 161)
+	Status: delivering
+	Delivery Condition:(159, 156, 161) > (149, 151, 161)
+---------------------
+2021-10-17 11:29:29,071 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 40'
+	Packet Clock:
+		t_m: (156, 156, 168)
+		tP_snd: (161, 162, 169)
+	Receiver Logical Clock (tP_rcv):
+		(162, 156, 168)
+	Status: delivering
+	Delivery Condition:(162, 156, 168) > (156, 156, 168)
+---------------------
+2021-10-17 11:29:29,407 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 38'
+	Packet Clock:
+		t_m: (161, 162, 171)
+		tP_snd: (162, 163, 175)
+	Receiver Logical Clock (tP_rcv):
+		(163, 162, 169)
+	Status: buffered
+	Delivery Condition:(163, 162, 169) > (161, 162, 171)
+---------------------
+2021-10-17 11:29:29,407 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 37'
+	Packet Clock:
+		t_m: (156, 156, 168)
+		tP_snd: (161, 161, 171)
+	Receiver Logical Clock (tP_rcv):
+		(163, 162, 169)
+	Status: delivering
+	Delivery Condition:(163, 162, 169) > (156, 156, 168)
+---------------------
+2021-10-17 11:29:29,642 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 39'
+	Packet Clock:
+		t_m: (162, 163, 175)
+		tP_snd: (165, 163, 177)
+	Receiver Logical Clock (tP_rcv):
+		(165, 162, 171)
+	Status: buffered
+	Delivery Condition:(165, 162, 171) > (162, 163, 175)
+---------------------
+2021-10-17 11:29:29,643 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 38'
+	Packet Clock:
+		t_m: (161, 162, 171)
+		tP_snd: (162, 163, 175)
+	Receiver Logical Clock (tP_rcv):
+		(165, 162, 171)
+	Status: delivering from buffer
+	Delivery Condition:(165, 162, 171) > (161, 162, 171)
+---------------------
+2021-10-17 11:29:29,643 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 39'
+	Packet Clock:
+		t_m: (162, 163, 175)
+		tP_snd: (165, 163, 177)
+	Receiver Logical Clock (tP_rcv):
+		(166, 163, 175)
+	Status: delivering from buffer
+	Delivery Condition:(166, 163, 175) > (162, 163, 175)
+---------------------
+2021-10-17 11:29:29,869 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 40'
+	Packet Clock:
+		t_m: (165, 163, 177)
+		tP_snd: (168, 166, 179)
+	Receiver Logical Clock (tP_rcv):
+		(168, 163, 177)
+	Status: delivering
+	Delivery Condition:(168, 163, 177) > (165, 163, 177)
+---------------------
+2021-10-17 11:29:30,000 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 41'
+	Packet Clock:
+		t_m: (168, 166, 179)
+		tP_snd: (168, 168, 180)
+	Receiver Logical Clock (tP_rcv):
+		(169, 166, 179)
+	Status: delivering
+	Delivery Condition:(169, 166, 179) > (168, 166, 179)
+---------------------
+2021-10-17 11:29:30,175 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 42'
+	Packet Clock:
+		t_m: (168, 168, 180)
+		tP_snd: (168, 170, 180)
+	Receiver Logical Clock (tP_rcv):
+		(170, 168, 180)
+	Status: delivering
+	Delivery Condition:(170, 168, 180) > (168, 168, 180)
+---------------------
+2021-10-17 11:29:30,374 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 41'
+	Packet Clock:
+		t_m: (168, 170, 180)
+		tP_snd: (168, 171, 183)
+	Receiver Logical Clock (tP_rcv):
+		(171, 170, 180)
+	Status: delivering
+	Delivery Condition:(171, 170, 180) > (168, 170, 180)
+---------------------
+2021-10-17 11:29:30,805 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 42'
+	Packet Clock:
+		t_m: (168, 171, 183)
+		tP_snd: (174, 171, 188)
+	Receiver Logical Clock (tP_rcv):
+		(175, 171, 183)
+	Status: delivering
+	Delivery Condition:(175, 171, 183) > (168, 171, 183)
+---------------------
+2021-10-17 11:29:30,860 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 43'
+	Packet Clock:
+		t_m: (168, 171, 183)
+		tP_snd: (177, 176, 188)
+	Receiver Logical Clock (tP_rcv):
+		(178, 171, 188)
+	Status: delivering
+	Delivery Condition:(178, 171, 188) > (168, 171, 183)
+---------------------
+2021-10-17 11:29:30,884 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 44'
+	Packet Clock:
+		t_m: (177, 176, 188)
+		tP_snd: (177, 177, 188)
+	Receiver Logical Clock (tP_rcv):
+		(179, 176, 188)
+	Status: delivering
+	Delivery Condition:(179, 176, 188) > (177, 176, 188)
+---------------------
+2021-10-17 11:29:31,063 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 45'
+	Packet Clock:
+		t_m: (177, 177, 188)
+		tP_snd: (177, 178, 188)
+	Receiver Logical Clock (tP_rcv):
+		(180, 177, 188)
+	Status: delivering
+	Delivery Condition:(180, 177, 188) > (177, 177, 188)
+---------------------
+2021-10-17 11:29:31,889 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 46'
+	Packet Clock:
+		t_m: (178, 178, 191)
+		tP_snd: (183, 184, 193)
+	Receiver Logical Clock (tP_rcv):
+		(183, 178, 188)
+	Status: buffered
+	Delivery Condition:(183, 178, 188) > (178, 178, 191)
+---------------------
+2021-10-17 11:29:32,054 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 44'
+	Packet Clock:
+		t_m: (178, 171, 191)
+		tP_snd: (184, 178, 195)
+	Receiver Logical Clock (tP_rcv):
+		(184, 178, 188)
+	Status: buffered
+	Delivery Condition:(184, 178, 188) > (178, 171, 191)
+---------------------
+2021-10-17 11:29:32,054 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 43'
+	Packet Clock:
+		t_m: (174, 171, 188)
+		tP_snd: (178, 171, 191)
+	Receiver Logical Clock (tP_rcv):
+		(184, 178, 188)
+	Status: delivering
+	Delivery Condition:(184, 178, 188) > (174, 171, 188)
+---------------------
+2021-10-17 11:29:32,377 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 47'
+	Packet Clock:
+		t_m: (184, 184, 195)
+		tP_snd: (187, 188, 197)
+	Receiver Logical Clock (tP_rcv):
+		(187, 178, 191)
+	Status: buffered
+	Delivery Condition:(187, 178, 191) > (184, 184, 195)
+---------------------
+2021-10-17 11:29:32,377 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 46'
+	Packet Clock:
+		t_m: (178, 178, 191)
+		tP_snd: (183, 184, 193)
+	Receiver Logical Clock (tP_rcv):
+		(187, 178, 191)
+	Status: delivering from buffer
+	Delivery Condition:(187, 178, 191) > (178, 178, 191)
+---------------------
+2021-10-17 11:29:32,377 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 44'
+	Packet Clock:
+		t_m: (178, 171, 191)
+		tP_snd: (184, 178, 195)
+	Receiver Logical Clock (tP_rcv):
+		(188, 184, 193)
+	Status: delivering from buffer
+	Delivery Condition:(188, 184, 193) > (178, 171, 191)
+---------------------
+2021-10-17 11:29:32,377 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 47'
+	Packet Clock:
+		t_m: (184, 184, 195)
+		tP_snd: (187, 188, 197)
+	Receiver Logical Clock (tP_rcv):
+		(189, 184, 195)
+	Status: delivering from buffer
+	Delivery Condition:(189, 184, 195) > (184, 184, 195)
+---------------------
+2021-10-17 11:29:32,816 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 45'
+	Packet Clock:
+		t_m: (184, 178, 195)
+		tP_snd: (187, 180, 200)
+	Receiver Logical Clock (tP_rcv):
+		(190, 188, 197)
+	Status: delivering
+	Delivery Condition:(190, 188, 197) > (184, 178, 195)
+---------------------
+2021-10-17 11:29:32,877 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 46'
+	Packet Clock:
+		t_m: (187, 180, 200)
+		tP_snd: (187, 180, 201)
+	Receiver Logical Clock (tP_rcv):
+		(191, 188, 200)
+	Status: delivering
+	Delivery Condition:(191, 188, 200) > (187, 180, 200)
+---------------------
+2021-10-17 11:29:33,038 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 48'
+	Packet Clock:
+		t_m: (187, 188, 197)
+		tP_snd: (187, 189, 197)
+	Receiver Logical Clock (tP_rcv):
+		(194, 188, 201)
+	Status: delivering
+	Delivery Condition:(194, 188, 201) > (187, 188, 197)
+---------------------
+2021-10-17 11:29:33,372 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 49'
+	Packet Clock:
+		t_m: (187, 189, 197)
+		tP_snd: (187, 192, 199)
+	Receiver Logical Clock (tP_rcv):
+		(195, 189, 201)
+	Status: delivering
+	Delivery Condition:(195, 189, 201) > (187, 189, 197)
+---------------------
+2021-10-17 11:29:33,379 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 50'
+	Packet Clock:
+		t_m: (187, 192, 199)
+		tP_snd: (187, 193, 199)
+	Receiver Logical Clock (tP_rcv):
+		(197, 192, 201)
+	Status: delivering
+	Delivery Condition:(197, 192, 201) > (187, 192, 199)
+---------------------
+2021-10-17 11:29:33,514 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 48'
+	Packet Clock:
+		t_m: (193, 189, 205)
+		tP_snd: (197, 192, 209)
+	Receiver Logical Clock (tP_rcv):
+		(198, 193, 201)
+	Status: buffered
+	Delivery Condition:(198, 193, 201) > (193, 189, 205)
+---------------------
+2021-10-17 11:29:33,514 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 47'
+	Packet Clock:
+		t_m: (187, 184, 201)
+		tP_snd: (193, 188, 205)
+	Receiver Logical Clock (tP_rcv):
+		(198, 193, 201)
+	Status: delivering
+	Delivery Condition:(198, 193, 201) > (187, 184, 201)
+---------------------
+2021-10-17 11:29:33,518 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 51'
+	Packet Clock:
+		t_m: (187, 193, 199)
+		tP_snd: (187, 194, 199)
+	Receiver Logical Clock (tP_rcv):
+		(199, 193, 205)
+	Status: delivering
+	Delivery Condition:(199, 193, 205) > (187, 193, 199)
+---------------------
+2021-10-17 11:29:33,713 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 52'
+	Packet Clock:
+		t_m: (187, 194, 199)
+		tP_snd: (187, 196, 199)
+	Receiver Logical Clock (tP_rcv):
+		(200, 194, 205)
+	Status: delivering
+	Delivery Condition:(200, 194, 205) > (187, 194, 199)
+---------------------
+2021-10-17 11:29:34,090 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 53'
+	Packet Clock:
+		t_m: (187, 196, 199)
+		tP_snd: (187, 198, 199)
+	Receiver Logical Clock (tP_rcv):
+		(203, 196, 205)
+	Status: delivering
+	Delivery Condition:(203, 196, 205) > (187, 196, 199)
+---------------------
+2021-10-17 11:29:34,484 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 49'
+	Packet Clock:
+		t_m: (197, 196, 209)
+		tP_snd: (205, 198, 217)
+	Receiver Logical Clock (tP_rcv):
+		(205, 198, 205)
+	Status: buffered
+	Delivery Condition:(205, 198, 205) > (197, 196, 209)
+---------------------
+2021-10-17 11:29:34,484 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 48'
+	Packet Clock:
+		t_m: (193, 189, 205)
+		tP_snd: (197, 192, 209)
+	Receiver Logical Clock (tP_rcv):
+		(205, 198, 205)
+	Status: delivering from buffer
+	Delivery Condition:(205, 198, 205) > (193, 189, 205)
+---------------------
+2021-10-17 11:29:34,484 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 49'
+	Packet Clock:
+		t_m: (197, 196, 209)
+		tP_snd: (205, 198, 217)
+	Receiver Logical Clock (tP_rcv):
+		(206, 198, 209)
+	Status: delivering from buffer
+	Delivery Condition:(206, 198, 209) > (197, 196, 209)
+---------------------
+2021-10-17 11:29:34,831 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 50'
+	Packet Clock:
+		t_m: (205, 198, 217)
+		tP_snd: (209, 208, 220)
+	Receiver Logical Clock (tP_rcv):
+		(209, 198, 217)
+	Status: delivering
+	Delivery Condition:(209, 198, 217) > (205, 198, 217)
+---------------------
+2021-10-17 11:29:34,919 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 54'
+	Packet Clock:
+		t_m: (197, 198, 209)
+		tP_snd: (209, 209, 217)
+	Receiver Logical Clock (tP_rcv):
+		(210, 208, 220)
+	Status: delivering
+	Delivery Condition:(210, 208, 220) > (197, 198, 209)
+---------------------
+2021-10-17 11:29:35,004 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 51'
+	Packet Clock:
+		t_m: (209, 208, 220)
+		tP_snd: (209, 208, 221)
+	Receiver Logical Clock (tP_rcv):
+		(211, 209, 220)
+	Status: delivering
+	Delivery Condition:(211, 209, 220) > (209, 208, 220)
+---------------------
+2021-10-17 11:29:35,673 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 55'
+	Packet Clock:
+		t_m: (213, 209, 224)
+		tP_snd: (214, 214, 225)
+	Receiver Logical Clock (tP_rcv):
+		(215, 209, 221)
+	Status: buffered
+	Delivery Condition:(215, 209, 221) > (213, 209, 224)
+---------------------
+2021-10-17 11:29:36,024 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 53'
+	Packet Clock:
+		t_m: (214, 214, 225)
+		tP_snd: (214, 216, 229)
+	Receiver Logical Clock (tP_rcv):
+		(216, 209, 221)
+	Status: buffered
+	Delivery Condition:(216, 209, 221) > (214, 214, 225)
+---------------------
+2021-10-17 11:29:36,025 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 52'
+	Packet Clock:
+		t_m: (209, 208, 221)
+		tP_snd: (213, 209, 224)
+	Receiver Logical Clock (tP_rcv):
+		(216, 209, 221)
+	Status: delivering
+	Delivery Condition:(216, 209, 221) > (209, 208, 221)
+---------------------
+2021-10-17 11:29:36,144 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 56'
+	Packet Clock:
+		t_m: (214, 214, 225)
+		tP_snd: (216, 218, 225)
+	Receiver Logical Clock (tP_rcv):
+		(217, 209, 224)
+	Status: buffered
+	Delivery Condition:(217, 209, 224) > (214, 214, 225)
+---------------------
+2021-10-17 11:29:36,144 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 55'
+	Packet Clock:
+		t_m: (213, 209, 224)
+		tP_snd: (214, 214, 225)
+	Receiver Logical Clock (tP_rcv):
+		(217, 209, 224)
+	Status: delivering from buffer
+	Delivery Condition:(217, 209, 224) > (213, 209, 224)
+---------------------
+2021-10-17 11:29:36,145 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 53'
+	Packet Clock:
+		t_m: (214, 214, 225)
+		tP_snd: (214, 216, 229)
+	Receiver Logical Clock (tP_rcv):
+		(218, 214, 225)
+	Status: delivering from buffer
+	Delivery Condition:(218, 214, 225) > (214, 214, 225)
+---------------------
+2021-10-17 11:29:36,145 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 56'
+	Packet Clock:
+		t_m: (214, 214, 225)
+		tP_snd: (216, 218, 225)
+	Receiver Logical Clock (tP_rcv):
+		(219, 216, 229)
+	Status: delivering from buffer
+	Delivery Condition:(219, 216, 229) > (214, 214, 225)
+---------------------
+2021-10-17 11:29:36,646 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 54'
+	Packet Clock:
+		t_m: (214, 216, 229)
+		tP_snd: (215, 216, 233)
+	Receiver Logical Clock (tP_rcv):
+		(221, 218, 229)
+	Status: delivering
+	Delivery Condition:(221, 218, 229) > (214, 216, 229)
+---------------------
+2021-10-17 11:29:36,879 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 57'
+	Packet Clock:
+		t_m: (216, 218, 229)
+		tP_snd: (223, 225, 233)
+	Receiver Logical Clock (tP_rcv):
+		(224, 218, 233)
+	Status: delivering
+	Delivery Condition:(224, 218, 233) > (216, 218, 229)
+---------------------
+2021-10-17 11:29:36,905 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 55'
+	Packet Clock:
+		t_m: (216, 218, 233)
+		tP_snd: (224, 224, 239)
+	Receiver Logical Clock (tP_rcv):
+		(225, 225, 233)
+	Status: delivering
+	Delivery Condition:(225, 225, 233) > (216, 218, 233)
+---------------------
+2021-10-17 11:29:36,932 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 56'
+	Packet Clock:
+		t_m: (224, 224, 239)
+		tP_snd: (224, 224, 240)
+	Receiver Logical Clock (tP_rcv):
+		(226, 225, 239)
+	Status: delivering
+	Delivery Condition:(226, 225, 239) > (224, 224, 239)
+---------------------
+2021-10-17 11:29:37,464 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 58'
+	Packet Clock:
+		t_m: (224, 225, 240)
+		tP_snd: (228, 227, 242)
+	Receiver Logical Clock (tP_rcv):
+		(228, 225, 240)
+	Status: delivering
+	Delivery Condition:(228, 225, 240) > (224, 225, 240)
+---------------------
+2021-10-17 11:29:37,696 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 59'
+	Packet Clock:
+		t_m: (228, 227, 242)
+		tP_snd: (231, 233, 246)
+	Receiver Logical Clock (tP_rcv):
+		(231, 227, 242)
+	Status: delivering
+	Delivery Condition:(231, 227, 242) > (228, 227, 242)
+---------------------
+2021-10-17 11:29:37,731 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 57'
+	Packet Clock:
+		t_m: (228, 227, 242)
+		tP_snd: (230, 228, 247)
+	Receiver Logical Clock (tP_rcv):
+		(232, 233, 246)
+	Status: delivering
+	Delivery Condition:(232, 233, 246) > (228, 227, 242)
+---------------------
+2021-10-17 11:29:37,981 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 60'
+	Packet Clock:
+		t_m: (231, 233, 246)
+		tP_snd: (231, 235, 246)
+	Receiver Logical Clock (tP_rcv):
+		(233, 233, 247)
+	Status: delivering
+	Delivery Condition:(233, 233, 247) > (231, 233, 246)
+---------------------
+2021-10-17 11:29:38,105 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 58'
+	Packet Clock:
+		t_m: (230, 228, 247)
+		tP_snd: (230, 229, 249)
+	Receiver Logical Clock (tP_rcv):
+		(234, 235, 247)
+	Status: delivering
+	Delivery Condition:(234, 235, 247) > (230, 228, 247)
+---------------------
+2021-10-17 11:29:38,261 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 59'
+	Packet Clock:
+		t_m: (230, 229, 249)
+		tP_snd: (230, 229, 250)
+	Receiver Logical Clock (tP_rcv):
+		(236, 235, 249)
+	Status: delivering
+	Delivery Condition:(236, 235, 249) > (230, 229, 249)
+---------------------
+2021-10-17 11:29:38,305 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 61'
+	Packet Clock:
+		t_m: (231, 235, 246)
+		tP_snd: (231, 237, 246)
+	Receiver Logical Clock (tP_rcv):
+		(237, 235, 250)
+	Status: delivering
+	Delivery Condition:(237, 235, 250) > (231, 235, 246)
+---------------------
+2021-10-17 11:29:38,615 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 62'
+	Packet Clock:
+		t_m: (231, 237, 250)
+		tP_snd: (240, 242, 255)
+	Receiver Logical Clock (tP_rcv):
+		(240, 237, 250)
+	Status: delivering
+	Delivery Condition:(240, 237, 250) > (231, 237, 250)
+---------------------
+2021-10-17 11:29:39,027 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 60'
+	Packet Clock:
+		t_m: (231, 237, 250)
+		tP_snd: (231, 239, 257)
+	Receiver Logical Clock (tP_rcv):
+		(242, 242, 255)
+	Status: delivering
+	Delivery Condition:(242, 242, 255) > (231, 237, 250)
+---------------------
+2021-10-17 11:29:39,469 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 63'
+	Packet Clock:
+		t_m: (240, 242, 255)
+		tP_snd: (242, 246, 256)
+	Receiver Logical Clock (tP_rcv):
+		(244, 242, 257)
+	Status: delivering
+	Delivery Condition:(244, 242, 257) > (240, 242, 255)
+---------------------
+2021-10-17 11:29:39,749 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 64'
+	Packet Clock:
+		t_m: (242, 246, 256)
+		tP_snd: (246, 248, 257)
+	Receiver Logical Clock (tP_rcv):
+		(246, 246, 257)
+	Status: delivering
+	Delivery Condition:(246, 246, 257) > (242, 246, 256)
+---------------------
+2021-10-17 11:29:39,874 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 61'
+	Packet Clock:
+		t_m: (246, 248, 257)
+		tP_snd: (246, 249, 264)
+	Receiver Logical Clock (tP_rcv):
+		(247, 248, 257)
+	Status: delivering
+	Delivery Condition:(247, 248, 257) > (246, 248, 257)
+---------------------
+2021-10-17 11:29:40,187 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 62'
+	Packet Clock:
+		t_m: (246, 249, 264)
+		tP_snd: (246, 249, 266)
+	Receiver Logical Clock (tP_rcv):
+		(248, 249, 264)
+	Status: delivering
+	Delivery Condition:(248, 249, 264) > (246, 249, 264)
+---------------------
+2021-10-17 11:29:40,689 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 65'
+	Packet Clock:
+		t_m: (246, 249, 266)
+		tP_snd: (252, 256, 268)
+	Receiver Logical Clock (tP_rcv):
+		(252, 249, 266)
+	Status: delivering
+	Delivery Condition:(252, 249, 266) > (246, 249, 266)
+---------------------
+2021-10-17 11:29:40,735 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 66'
+	Packet Clock:
+		t_m: (252, 256, 268)
+		tP_snd: (252, 257, 268)
+	Receiver Logical Clock (tP_rcv):
+		(253, 256, 268)
+	Status: delivering
+	Delivery Condition:(253, 256, 268) > (252, 256, 268)
+---------------------
+2021-10-17 11:29:40,966 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 63'
+	Packet Clock:
+		t_m: (252, 257, 268)
+		tP_snd: (255, 258, 273)
+	Receiver Logical Clock (tP_rcv):
+		(255, 257, 268)
+	Status: delivering
+	Delivery Condition:(255, 257, 268) > (252, 257, 268)
+---------------------
+2021-10-17 11:29:41,271 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 67'
+	Packet Clock:
+		t_m: (252, 257, 268)
+		tP_snd: (258, 262, 273)
+	Receiver Logical Clock (tP_rcv):
+		(258, 258, 273)
+	Status: delivering
+	Delivery Condition:(258, 258, 273) > (252, 257, 268)
+---------------------
+2021-10-17 11:29:41,291 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 68'
+	Packet Clock:
+		t_m: (258, 262, 273)
+		tP_snd: (258, 263, 273)
+	Receiver Logical Clock (tP_rcv):
+		(259, 262, 273)
+	Status: delivering
+	Delivery Condition:(259, 262, 273) > (258, 262, 273)
+---------------------
+2021-10-17 11:29:41,365 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 64'
+	Packet Clock:
+		t_m: (255, 258, 273)
+		tP_snd: (255, 258, 274)
+	Receiver Logical Clock (tP_rcv):
+		(260, 263, 273)
+	Status: delivering
+	Delivery Condition:(260, 263, 273) > (255, 258, 273)
+---------------------
+2021-10-17 11:29:41,623 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 65'
+	Packet Clock:
+		t_m: (258, 263, 274)
+		tP_snd: (262, 264, 277)
+	Receiver Logical Clock (tP_rcv):
+		(262, 263, 274)
+	Status: delivering
+	Delivery Condition:(262, 263, 274) > (258, 263, 274)
+---------------------
+2021-10-17 11:29:42,234 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 66'
+	Packet Clock:
+		t_m: (265, 269, 278)
+		tP_snd: (268, 272, 283)
+	Receiver Logical Clock (tP_rcv):
+		(268, 264, 277)
+	Status: buffered
+	Delivery Condition:(268, 264, 277) > (265, 269, 278)
+---------------------
+2021-10-17 11:29:42,985 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 72'
+	Packet Clock:
+		t_m: (268, 274, 283)
+		tP_snd: (270, 278, 287)
+	Receiver Logical Clock (tP_rcv):
+		(270, 264, 277)
+	Status: buffered
+	Delivery Condition:(270, 264, 277) > (268, 274, 283)
+---------------------
+2021-10-17 11:29:42,986 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 71'
+	Packet Clock:
+		t_m: (265, 269, 278)
+		tP_snd: (268, 274, 278)
+	Receiver Logical Clock (tP_rcv):
+		(270, 264, 277)
+	Status: buffered
+	Delivery Condition:(270, 264, 277) > (265, 269, 278)
+---------------------
+2021-10-17 11:29:42,987 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 70'
+	Packet Clock:
+		t_m: (262, 265, 277)
+		tP_snd: (265, 269, 278)
+	Receiver Logical Clock (tP_rcv):
+		(270, 264, 277)
+	Status: buffered
+	Delivery Condition:(270, 264, 277) > (262, 265, 277)
+---------------------
+2021-10-17 11:29:42,987 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 69'
+	Packet Clock:
+		t_m: (258, 263, 273)
+		tP_snd: (258, 265, 273)
+	Receiver Logical Clock (tP_rcv):
+		(270, 264, 277)
+	Status: delivering
+	Delivery Condition:(270, 264, 277) > (258, 263, 273)
+---------------------
+2021-10-17 11:29:43,165 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 68'
+	Packet Clock:
+		t_m: (270, 278, 288)
+		tP_snd: (270, 279, 290)
+	Receiver Logical Clock (tP_rcv):
+		(271, 265, 277)
+	Status: buffered
+	Delivery Condition:(271, 265, 277) > (270, 278, 288)
+---------------------
+2021-10-17 11:29:43,165 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 70'
+	Packet Clock:
+		t_m: (262, 265, 277)
+		tP_snd: (265, 269, 278)
+	Receiver Logical Clock (tP_rcv):
+		(271, 265, 277)
+	Status: delivering from buffer
+	Delivery Condition:(271, 265, 277) > (262, 265, 277)
+---------------------
+2021-10-17 11:29:43,166 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 66'
+	Packet Clock:
+		t_m: (265, 269, 278)
+		tP_snd: (268, 272, 283)
+	Receiver Logical Clock (tP_rcv):
+		(272, 269, 278)
+	Status: delivering from buffer
+	Delivery Condition:(272, 269, 278) > (265, 269, 278)
+---------------------
+2021-10-17 11:29:43,166 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 71'
+	Packet Clock:
+		t_m: (265, 269, 278)
+		tP_snd: (268, 274, 278)
+	Receiver Logical Clock (tP_rcv):
+		(273, 272, 283)
+	Status: delivering from buffer
+	Delivery Condition:(273, 272, 283) > (265, 269, 278)
+---------------------
+2021-10-17 11:29:43,166 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 72'
+	Packet Clock:
+		t_m: (268, 274, 283)
+		tP_snd: (270, 278, 287)
+	Receiver Logical Clock (tP_rcv):
+		(274, 274, 283)
+	Status: delivering from buffer
+	Delivery Condition:(274, 274, 283) > (268, 274, 283)
+---------------------
+2021-10-17 11:29:43,167 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 67'
+	Packet Clock:
+		t_m: (268, 272, 283)
+		tP_snd: (269, 273, 288)
+	Receiver Logical Clock (tP_rcv):
+		(275, 278, 287)
+	Status: delivering
+	Delivery Condition:(275, 278, 287) > (268, 272, 283)
+---------------------
+2021-10-17 11:29:43,198 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 73'
+	Packet Clock:
+		t_m: (270, 278, 287)
+		tP_snd: (270, 280, 287)
+	Receiver Logical Clock (tP_rcv):
+		(276, 278, 288)
+	Status: delivering
+	Delivery Condition:(276, 278, 288) > (270, 278, 287)
+---------------------
+2021-10-17 11:29:43,359 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 69'
+	Packet Clock:
+		t_m: (270, 279, 290)
+		tP_snd: (278, 280, 292)
+	Receiver Logical Clock (tP_rcv):
+		(278, 280, 288)
+	Status: buffered
+	Delivery Condition:(278, 280, 288) > (270, 279, 290)
+---------------------
+2021-10-17 11:29:43,360 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 68'
+	Packet Clock:
+		t_m: (270, 278, 288)
+		tP_snd: (270, 279, 290)
+	Receiver Logical Clock (tP_rcv):
+		(278, 280, 288)
+	Status: delivering from buffer
+	Delivery Condition:(278, 280, 288) > (270, 278, 288)
+---------------------
+2021-10-17 11:29:43,360 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 69'
+	Packet Clock:
+		t_m: (270, 279, 290)
+		tP_snd: (278, 280, 292)
+	Receiver Logical Clock (tP_rcv):
+		(279, 280, 290)
+	Status: delivering from buffer
+	Delivery Condition:(279, 280, 290) > (270, 279, 290)
+---------------------
+2021-10-17 11:29:43,721 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 70'
+	Packet Clock:
+		t_m: (278, 280, 292)
+		tP_snd: (278, 280, 293)
+	Receiver Logical Clock (tP_rcv):
+		(281, 280, 292)
+	Status: delivering
+	Delivery Condition:(281, 280, 292) > (278, 280, 292)
+---------------------
+2021-10-17 11:29:44,000 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 74'
+	Packet Clock:
+		t_m: (278, 280, 293)
+		tP_snd: (278, 283, 294)
+	Receiver Logical Clock (tP_rcv):
+		(282, 280, 293)
+	Status: delivering
+	Delivery Condition:(282, 280, 293) > (278, 280, 293)
+---------------------
+2021-10-17 11:29:44,004 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 71'
+	Packet Clock:
+		t_m: (278, 280, 293)
+		tP_snd: (278, 282, 296)
+	Receiver Logical Clock (tP_rcv):
+		(283, 283, 294)
+	Status: delivering
+	Delivery Condition:(283, 283, 294) > (278, 280, 293)
+---------------------
+2021-10-17 11:29:44,171 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 72'
+	Packet Clock:
+		t_m: (278, 282, 296)
+		tP_snd: (285, 283, 298)
+	Receiver Logical Clock (tP_rcv):
+		(285, 283, 296)
+	Status: delivering
+	Delivery Condition:(285, 283, 296) > (278, 282, 296)
+---------------------
+2021-10-17 11:29:44,473 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 73'
+	Packet Clock:
+		t_m: (285, 283, 298)
+		tP_snd: (285, 284, 301)
+	Receiver Logical Clock (tP_rcv):
+		(286, 283, 298)
+	Status: delivering
+	Delivery Condition:(286, 283, 298) > (285, 283, 298)
+---------------------
+2021-10-17 11:29:44,790 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 75'
+	Packet Clock:
+		t_m: (285, 284, 301)
+		tP_snd: (288, 290, 303)
+	Receiver Logical Clock (tP_rcv):
+		(288, 284, 301)
+	Status: delivering
+	Delivery Condition:(288, 284, 301) > (285, 284, 301)
+---------------------
+2021-10-17 11:29:45,365 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 74'
+	Packet Clock:
+		t_m: (288, 290, 303)
+		tP_snd: (290, 293, 309)
+	Receiver Logical Clock (tP_rcv):
+		(291, 290, 303)
+	Status: delivering
+	Delivery Condition:(291, 290, 303) > (288, 290, 303)
+---------------------
+2021-10-17 11:29:45,521 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 75'
+	Packet Clock:
+		t_m: (290, 293, 309)
+		tP_snd: (290, 293, 310)
+	Receiver Logical Clock (tP_rcv):
+		(292, 293, 309)
+	Status: delivering
+	Delivery Condition:(292, 293, 309) > (290, 293, 309)
+---------------------
+2021-10-17 11:29:45,871 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 76'
+	Packet Clock:
+		t_m: (290, 293, 310)
+		tP_snd: (290, 293, 312)
+	Receiver Logical Clock (tP_rcv):
+		(293, 293, 310)
+	Status: delivering
+	Delivery Condition:(293, 293, 310) > (290, 293, 310)
+---------------------
+2021-10-17 11:29:45,966 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 77'
+	Packet Clock:
+		t_m: (291, 295, 310)
+		tP_snd: (291, 298, 311)
+	Receiver Logical Clock (tP_rcv):
+		(295, 293, 312)
+	Status: buffered
+	Delivery Condition:(295, 293, 312) > (291, 295, 310)
+---------------------
+2021-10-17 11:29:45,967 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 76'
+	Packet Clock:
+		t_m: (288, 290, 303)
+		tP_snd: (291, 295, 305)
+	Receiver Logical Clock (tP_rcv):
+		(295, 293, 312)
+	Status: delivering
+	Delivery Condition:(295, 293, 312) > (288, 290, 303)
+---------------------
+2021-10-17 11:29:46,566 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 78'
+	Packet Clock:
+		t_m: (298, 300, 316)
+		tP_snd: (299, 300, 319)
+	Receiver Logical Clock (tP_rcv):
+		(299, 295, 312)
+	Status: buffered
+	Delivery Condition:(299, 295, 312) > (298, 300, 316)
+---------------------
+2021-10-17 11:29:46,567 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 77'
+	Packet Clock:
+		t_m: (291, 295, 310)
+		tP_snd: (291, 298, 311)
+	Receiver Logical Clock (tP_rcv):
+		(299, 295, 312)
+	Status: delivering from buffer
+	Delivery Condition:(299, 295, 312) > (291, 295, 310)
+---------------------
+2021-10-17 11:29:46,567 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 77'
+	Packet Clock:
+		t_m: (291, 298, 312)
+		tP_snd: (298, 300, 316)
+	Receiver Logical Clock (tP_rcv):
+		(300, 298, 312)
+	Status: delivering
+	Delivery Condition:(300, 298, 312) > (291, 298, 312)
+---------------------
+2021-10-17 11:29:46,619 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 78'
+	Packet Clock:
+		t_m: (291, 298, 311)
+		tP_snd: (297, 301, 312)
+	Receiver Logical Clock (tP_rcv):
+		(301, 300, 316)
+	Status: delivering
+	Delivery Condition:(301, 300, 316) > (291, 298, 311)
+---------------------
+2021-10-17 11:29:46,640 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 79'
+	Packet Clock:
+		t_m: (299, 300, 319)
+		tP_snd: (299, 300, 320)
+	Receiver Logical Clock (tP_rcv):
+		(302, 301, 316)
+	Status: buffered
+	Delivery Condition:(302, 301, 316) > (299, 300, 319)
+---------------------
+2021-10-17 11:29:46,641 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 78'
+	Packet Clock:
+		t_m: (298, 300, 316)
+		tP_snd: (299, 300, 319)
+	Receiver Logical Clock (tP_rcv):
+		(302, 301, 316)
+	Status: delivering from buffer
+	Delivery Condition:(302, 301, 316) > (298, 300, 316)
+---------------------
+2021-10-17 11:29:46,641 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 79'
+	Packet Clock:
+		t_m: (299, 300, 319)
+		tP_snd: (299, 300, 320)
+	Receiver Logical Clock (tP_rcv):
+		(303, 301, 319)
+	Status: delivering from buffer
+	Delivery Condition:(303, 301, 319) > (299, 300, 319)
+---------------------
+2021-10-17 11:29:47,438 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 80'
+	Packet Clock:
+		t_m: (299, 301, 320)
+		tP_snd: (307, 302, 324)
+	Receiver Logical Clock (tP_rcv):
+		(307, 301, 320)
+	Status: delivering
+	Delivery Condition:(307, 301, 320) > (299, 301, 320)
+---------------------
+2021-10-17 11:29:47,559 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 79'
+	Packet Clock:
+		t_m: (298, 301, 316)
+		tP_snd: (299, 305, 318)
+	Receiver Logical Clock (tP_rcv):
+		(308, 302, 324)
+	Status: delivering
+	Delivery Condition:(308, 302, 324) > (298, 301, 316)
+---------------------
+2021-10-17 11:29:48,426 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 81'
+	Packet Clock:
+		t_m: (307, 305, 324)
+		tP_snd: (312, 314, 332)
+	Receiver Logical Clock (tP_rcv):
+		(313, 305, 324)
+	Status: delivering
+	Delivery Condition:(313, 305, 324) > (307, 305, 324)
+---------------------
+2021-10-17 11:29:48,515 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 80'
+	Packet Clock:
+		t_m: (307, 305, 324)
+		tP_snd: (313, 317, 331)
+	Receiver Logical Clock (tP_rcv):
+		(314, 314, 332)
+	Status: delivering
+	Delivery Condition:(314, 314, 332) > (307, 305, 324)
+---------------------
+2021-10-17 11:29:49,112 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 81'
+	Packet Clock:
+		t_m: (313, 317, 331)
+		tP_snd: (319, 322, 332)
+	Receiver Logical Clock (tP_rcv):
+		(321, 317, 332)
+	Status: delivering
+	Delivery Condition:(321, 317, 332) > (313, 317, 331)
+---------------------
+2021-10-17 11:29:50,559 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 83'
+	Packet Clock:
+		t_m: (323, 326, 340)
+		tP_snd: (325, 330, 342)
+	Receiver Logical Clock (tP_rcv):
+		(325, 322, 332)
+	Status: buffered
+	Delivery Condition:(325, 322, 332) > (323, 326, 340)
+---------------------
+2021-10-17 11:29:50,559 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 82'
+	Packet Clock:
+		t_m: (319, 322, 332)
+		tP_snd: (323, 326, 337)
+	Receiver Logical Clock (tP_rcv):
+		(325, 322, 332)
+	Status: delivering
+	Delivery Condition:(325, 322, 332) > (319, 322, 332)
+---------------------
+2021-10-17 11:29:50,859 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 85'
+	Packet Clock:
+		t_m: (325, 330, 342)
+		tP_snd: (328, 332, 349)
+	Receiver Logical Clock (tP_rcv):
+		(328, 326, 337)
+	Status: buffered
+	Delivery Condition:(328, 326, 337) > (325, 330, 342)
+---------------------
+2021-10-17 11:29:50,859 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 84'
+	Packet Clock:
+		t_m: (321, 321, 339)
+		tP_snd: (321, 321, 340)
+	Receiver Logical Clock (tP_rcv):
+		(328, 326, 337)
+	Status: buffered
+	Delivery Condition:(328, 326, 337) > (321, 321, 339)
+---------------------
+2021-10-17 11:29:50,859 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 83'
+	Packet Clock:
+		t_m: (321, 321, 338)
+		tP_snd: (321, 321, 339)
+	Receiver Logical Clock (tP_rcv):
+		(328, 326, 337)
+	Status: buffered
+	Delivery Condition:(328, 326, 337) > (321, 321, 338)
+---------------------
+2021-10-17 11:29:50,860 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 82'
+	Packet Clock:
+		t_m: (313, 317, 332)
+		tP_snd: (321, 321, 338)
+	Receiver Logical Clock (tP_rcv):
+		(328, 326, 337)
+	Status: delivering
+	Delivery Condition:(328, 326, 337) > (313, 317, 332)
+---------------------
+2021-10-17 11:29:51,066 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 86'
+	Packet Clock:
+		t_m: (328, 332, 349)
+		tP_snd: (328, 332, 350)
+	Receiver Logical Clock (tP_rcv):
+		(329, 326, 338)
+	Status: buffered
+	Delivery Condition:(329, 326, 338) > (328, 332, 349)
+---------------------
+2021-10-17 11:29:51,067 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 83'
+	Packet Clock:
+		t_m: (321, 321, 338)
+		tP_snd: (321, 321, 339)
+	Receiver Logical Clock (tP_rcv):
+		(329, 326, 338)
+	Status: delivering from buffer
+	Delivery Condition:(329, 326, 338) > (321, 321, 338)
+---------------------
+2021-10-17 11:29:51,067 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 84'
+	Packet Clock:
+		t_m: (321, 321, 339)
+		tP_snd: (321, 321, 340)
+	Receiver Logical Clock (tP_rcv):
+		(330, 326, 339)
+	Status: delivering from buffer
+	Delivery Condition:(330, 326, 339) > (321, 321, 339)
+---------------------
+2021-10-17 11:29:51,067 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 83'
+	Packet Clock:
+		t_m: (323, 326, 340)
+		tP_snd: (325, 330, 342)
+	Receiver Logical Clock (tP_rcv):
+		(331, 326, 340)
+	Status: delivering from buffer
+	Delivery Condition:(331, 326, 340) > (323, 326, 340)
+---------------------
+2021-10-17 11:29:51,067 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 85'
+	Packet Clock:
+		t_m: (325, 330, 342)
+		tP_snd: (328, 332, 349)
+	Receiver Logical Clock (tP_rcv):
+		(332, 330, 342)
+	Status: delivering from buffer
+	Delivery Condition:(332, 330, 342) > (325, 330, 342)
+---------------------
+2021-10-17 11:29:51,067 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 86'
+	Packet Clock:
+		t_m: (328, 332, 349)
+		tP_snd: (328, 332, 350)
+	Receiver Logical Clock (tP_rcv):
+		(333, 332, 349)
+	Status: delivering from buffer
+	Delivery Condition:(333, 332, 349) > (328, 332, 349)
+---------------------
+2021-10-17 11:29:51,242 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 84'
+	Packet Clock:
+		t_m: (325, 330, 342)
+		tP_snd: (335, 334, 350)
+	Receiver Logical Clock (tP_rcv):
+		(335, 332, 350)
+	Status: delivering
+	Delivery Condition:(335, 332, 350) > (325, 330, 342)
+---------------------
+2021-10-17 11:29:51,257 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 87'
+	Packet Clock:
+		t_m: (328, 332, 350)
+		tP_snd: (328, 332, 351)
+	Receiver Logical Clock (tP_rcv):
+		(336, 334, 350)
+	Status: delivering
+	Delivery Condition:(336, 334, 350) > (328, 332, 350)
+---------------------
+2021-10-17 11:29:51,382 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 88'
+	Packet Clock:
+		t_m: (335, 334, 351)
+		tP_snd: (335, 335, 354)
+	Receiver Logical Clock (tP_rcv):
+		(337, 334, 351)
+	Status: delivering
+	Delivery Condition:(337, 334, 351) > (335, 334, 351)
+---------------------
+2021-10-17 11:29:51,675 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 89'
+	Packet Clock:
+		t_m: (335, 335, 354)
+		tP_snd: (335, 337, 356)
+	Receiver Logical Clock (tP_rcv):
+		(339, 335, 354)
+	Status: delivering
+	Delivery Condition:(339, 335, 354) > (335, 335, 354)
+---------------------
+2021-10-17 11:29:51,806 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 85'
+	Packet Clock:
+		t_m: (335, 337, 356)
+		tP_snd: (339, 340, 357)
+	Receiver Logical Clock (tP_rcv):
+		(342, 337, 356)
+	Status: delivering
+	Delivery Condition:(342, 337, 356) > (335, 337, 356)
+---------------------
+2021-10-17 11:29:51,873 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 86'
+	Packet Clock:
+		t_m: (339, 340, 357)
+		tP_snd: (339, 341, 357)
+	Receiver Logical Clock (tP_rcv):
+		(343, 340, 357)
+	Status: delivering
+	Delivery Condition:(343, 340, 357) > (339, 340, 357)
+---------------------
+2021-10-17 11:29:52,001 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 87'
+	Packet Clock:
+		t_m: (339, 341, 357)
+		tP_snd: (339, 343, 357)
+	Receiver Logical Clock (tP_rcv):
+		(344, 341, 357)
+	Status: delivering
+	Delivery Condition:(344, 341, 357) > (339, 341, 357)
+---------------------
+2021-10-17 11:29:52,026 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 88'
+	Packet Clock:
+		t_m: (339, 343, 357)
+		tP_snd: (339, 344, 357)
+	Receiver Logical Clock (tP_rcv):
+		(346, 343, 357)
+	Status: delivering
+	Delivery Condition:(346, 343, 357) > (339, 343, 357)
+---------------------
+2021-10-17 11:29:52,379 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 89'
+	Packet Clock:
+		t_m: (339, 344, 357)
+		tP_snd: (339, 346, 357)
+	Receiver Logical Clock (tP_rcv):
+		(348, 344, 357)
+	Status: delivering
+	Delivery Condition:(348, 344, 357) > (339, 344, 357)
+---------------------
+2021-10-17 11:29:52,604 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 90'
+	Packet Clock:
+		t_m: (339, 344, 357)
+		tP_snd: (350, 346, 364)
+	Receiver Logical Clock (tP_rcv):
+		(351, 346, 357)
+	Status: delivering
+	Delivery Condition:(351, 346, 357) > (339, 344, 357)
+---------------------
+2021-10-17 11:29:52,860 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 91'
+	Packet Clock:
+		t_m: (350, 346, 364)
+		tP_snd: (350, 346, 368)
+	Receiver Logical Clock (tP_rcv):
+		(352, 346, 364)
+	Status: delivering
+	Delivery Condition:(352, 346, 364) > (350, 346, 364)
+---------------------
+2021-10-17 11:29:53,066 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 92'
+	Packet Clock:
+		t_m: (350, 346, 368)
+		tP_snd: (350, 346, 369)
+	Receiver Logical Clock (tP_rcv):
+		(354, 346, 368)
+	Status: delivering
+	Delivery Condition:(354, 346, 368) > (350, 346, 368)
+---------------------
+2021-10-17 11:29:53,299 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 90'
+	Packet Clock:
+		t_m: (339, 346, 357)
+		tP_snd: (348, 349, 357)
+	Receiver Logical Clock (tP_rcv):
+		(356, 346, 369)
+	Status: delivering
+	Delivery Condition:(356, 346, 369) > (339, 346, 357)
+---------------------
+2021-10-17 11:29:53,997 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 93'
+	Packet Clock:
+		t_m: (350, 346, 369)
+		tP_snd: (359, 349, 378)
+	Receiver Logical Clock (tP_rcv):
+		(362, 349, 369)
+	Status: delivering
+	Delivery Condition:(362, 349, 369) > (350, 346, 369)
+---------------------
+2021-10-17 11:29:54,232 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 91'
+	Packet Clock:
+		t_m: (350, 349, 369)
+		tP_snd: (365, 363, 378)
+	Receiver Logical Clock (tP_rcv):
+		(365, 349, 378)
+	Status: delivering
+	Delivery Condition:(365, 349, 378) > (350, 349, 369)
+---------------------
+2021-10-17 11:29:54,673 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 92'
+	Packet Clock:
+		t_m: (365, 363, 378)
+		tP_snd: (367, 368, 383)
+	Receiver Logical Clock (tP_rcv):
+		(367, 363, 378)
+	Status: delivering
+	Delivery Condition:(367, 363, 378) > (365, 363, 378)
+---------------------
+2021-10-17 11:29:54,975 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 94'
+	Packet Clock:
+		t_m: (367, 368, 383)
+		tP_snd: (369, 370, 388)
+	Receiver Logical Clock (tP_rcv):
+		(369, 368, 383)
+	Status: delivering
+	Delivery Condition:(369, 368, 383) > (367, 368, 383)
+---------------------
+2021-10-17 11:29:55,531 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 93'
+	Packet Clock:
+		t_m: (367, 368, 383)
+		tP_snd: (372, 373, 388)
+	Receiver Logical Clock (tP_rcv):
+		(374, 370, 388)
+	Status: delivering
+	Delivery Condition:(374, 370, 388) > (367, 368, 383)
+---------------------
+2021-10-17 11:29:55,885 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 95'
+	Packet Clock:
+		t_m: (372, 373, 388)
+		tP_snd: (374, 375, 393)
+	Receiver Logical Clock (tP_rcv):
+		(377, 373, 388)
+	Status: delivering
+	Delivery Condition:(377, 373, 388) > (372, 373, 388)
+---------------------
+2021-10-17 11:29:56,103 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 94'
+	Packet Clock:
+		t_m: (372, 373, 388)
+		tP_snd: (379, 377, 393)
+	Receiver Logical Clock (tP_rcv):
+		(380, 375, 393)
+	Status: delivering
+	Delivery Condition:(380, 375, 393) > (372, 373, 388)
+---------------------
+2021-10-17 11:29:56,244 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 96'
+	Packet Clock:
+		t_m: (379, 377, 393)
+		tP_snd: (380, 378, 398)
+	Receiver Logical Clock (tP_rcv):
+		(381, 377, 393)
+	Status: delivering
+	Delivery Condition:(381, 377, 393) > (379, 377, 393)
+---------------------
+2021-10-17 11:29:57,027 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 95'
+	Packet Clock:
+		t_m: (380, 378, 399)
+		tP_snd: (385, 383, 401)
+	Receiver Logical Clock (tP_rcv):
+		(385, 378, 398)
+	Status: buffered
+	Delivery Condition:(385, 378, 398) > (380, 378, 399)
+---------------------
+2021-10-17 11:29:57,225 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 98'
+	Packet Clock:
+		t_m: (385, 383, 401)
+		tP_snd: (385, 384, 404)
+	Receiver Logical Clock (tP_rcv):
+		(385, 378, 398)
+	Status: buffered
+	Delivery Condition:(385, 378, 398) > (385, 383, 401)
+---------------------
+2021-10-17 11:29:57,226 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 97'
+	Packet Clock:
+		t_m: (380, 378, 398)
+		tP_snd: (380, 378, 399)
+	Receiver Logical Clock (tP_rcv):
+		(385, 378, 398)
+	Status: delivering
+	Delivery Condition:(385, 378, 398) > (380, 378, 398)
+---------------------
+2021-10-17 11:29:57,341 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 96'
+	Packet Clock:
+		t_m: (385, 383, 401)
+		tP_snd: (385, 385, 401)
+	Receiver Logical Clock (tP_rcv):
+		(386, 378, 399)
+	Status: buffered
+	Delivery Condition:(386, 378, 399) > (385, 383, 401)
+---------------------
+2021-10-17 11:29:57,342 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 95'
+	Packet Clock:
+		t_m: (380, 378, 399)
+		tP_snd: (385, 383, 401)
+	Receiver Logical Clock (tP_rcv):
+		(386, 378, 399)
+	Status: delivering from buffer
+	Delivery Condition:(386, 378, 399) > (380, 378, 399)
+---------------------
+2021-10-17 11:29:57,342 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 98'
+	Packet Clock:
+		t_m: (385, 383, 401)
+		tP_snd: (385, 384, 404)
+	Receiver Logical Clock (tP_rcv):
+		(387, 383, 401)
+	Status: delivering from buffer
+	Delivery Condition:(387, 383, 401) > (385, 383, 401)
+---------------------
+2021-10-17 11:29:57,343 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 96'
+	Packet Clock:
+		t_m: (385, 383, 401)
+		tP_snd: (385, 385, 401)
+	Receiver Logical Clock (tP_rcv):
+		(388, 384, 404)
+	Status: delivering from buffer
+	Delivery Condition:(388, 384, 404) > (385, 383, 401)
+---------------------
+2021-10-17 11:29:57,885 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 99'
+	Packet Clock:
+		t_m: (385, 385, 404)
+		tP_snd: (390, 387, 409)
+	Receiver Logical Clock (tP_rcv):
+		(390, 385, 404)
+	Status: delivering
+	Delivery Condition:(390, 385, 404) > (385, 385, 404)
+---------------------
+2021-10-17 11:29:57,975 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 100'
+	Packet Clock:
+		t_m: (390, 387, 409)
+		tP_snd: (390, 387, 410)
+	Receiver Logical Clock (tP_rcv):
+		(393, 387, 409)
+	Status: delivering
+	Delivery Condition:(393, 387, 409) > (390, 387, 409)
+---------------------
+2021-10-17 11:29:58,004 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 97'
+	Packet Clock:
+		t_m: (385, 385, 404)
+		tP_snd: (392, 390, 409)
+	Receiver Logical Clock (tP_rcv):
+		(394, 387, 410)
+	Status: delivering
+	Delivery Condition:(394, 387, 410) > (385, 385, 404)
+---------------------
+2021-10-17 11:29:58,231 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 98'
+	Packet Clock:
+		t_m: (392, 390, 409)
+		tP_snd: (392, 392, 409)
+	Receiver Logical Clock (tP_rcv):
+		(395, 390, 410)
+	Status: delivering
+	Delivery Condition:(395, 390, 410) > (392, 390, 409)
+---------------------
+2021-10-17 11:29:58,492 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 101'
+	Packet Clock:
+		t_m: (392, 390, 410)
+		tP_snd: (392, 391, 412)
+	Receiver Logical Clock (tP_rcv):
+		(396, 392, 410)
+	Status: delivering
+	Delivery Condition:(396, 392, 410) > (392, 390, 410)
+---------------------
+2021-10-17 11:29:58,626 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 99'
+	Packet Clock:
+		t_m: (392, 392, 412)
+		tP_snd: (392, 395, 413)
+	Receiver Logical Clock (tP_rcv):
+		(397, 392, 412)
+	Status: delivering
+	Delivery Condition:(397, 392, 412) > (392, 392, 412)
+---------------------
+2021-10-17 11:29:59,210 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 102'
+	Packet Clock:
+		t_m: (392, 392, 412)
+		tP_snd: (393, 393, 416)
+	Receiver Logical Clock (tP_rcv):
+		(401, 395, 413)
+	Status: delivering
+	Delivery Condition:(401, 395, 413) > (392, 392, 412)
+---------------------
+2021-10-17 11:29:59,270 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 103'
+	Packet Clock:
+		t_m: (393, 395, 416)
+		tP_snd: (401, 399, 420)
+	Receiver Logical Clock (tP_rcv):
+		(402, 395, 416)
+	Status: delivering
+	Delivery Condition:(402, 395, 416) > (393, 395, 416)
+---------------------
+2021-10-17 11:29:59,367 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 100'
+	Packet Clock:
+		t_m: (393, 395, 416)
+		tP_snd: (401, 400, 417)
+	Receiver Logical Clock (tP_rcv):
+		(403, 399, 420)
+	Status: delivering
+	Delivery Condition:(403, 399, 420) > (393, 395, 416)
+---------------------
+2021-10-17 11:29:59,995 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 104'
+	Packet Clock:
+		t_m: (401, 400, 420)
+		tP_snd: (406, 402, 425)
+	Receiver Logical Clock (tP_rcv):
+		(406, 400, 420)
+	Status: delivering
+	Delivery Condition:(406, 400, 420) > (401, 400, 420)
+---------------------
+2021-10-17 11:30:00,191 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 101'
+	Packet Clock:
+		t_m: (401, 400, 420)
+		tP_snd: (405, 404, 421)
+	Receiver Logical Clock (tP_rcv):
+		(408, 402, 425)
+	Status: delivering
+	Delivery Condition:(408, 402, 425) > (401, 400, 420)
+---------------------
+2021-10-17 11:30:00,427 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 105'
+	Packet Clock:
+		t_m: (406, 402, 425)
+		tP_snd: (408, 402, 427)
+	Receiver Logical Clock (tP_rcv):
+		(410, 404, 425)
+	Status: delivering
+	Delivery Condition:(410, 404, 425) > (406, 402, 425)
+---------------------
+2021-10-17 11:30:00,591 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 102'
+	Packet Clock:
+		t_m: (408, 404, 427)
+		tP_snd: (410, 409, 428)
+	Receiver Logical Clock (tP_rcv):
+		(412, 404, 427)
+	Status: delivering
+	Delivery Condition:(412, 404, 427) > (408, 404, 427)
+---------------------
+2021-10-17 11:30:01,111 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 106'
+	Packet Clock:
+		t_m: (408, 404, 427)
+		tP_snd: (412, 408, 432)
+	Receiver Logical Clock (tP_rcv):
+		(415, 409, 428)
+	Status: delivering
+	Delivery Condition:(415, 409, 428) > (408, 404, 427)
+---------------------
+2021-10-17 11:30:01,339 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 103'
+	Packet Clock:
+		t_m: (410, 409, 428)
+		tP_snd: (415, 412, 428)
+	Receiver Logical Clock (tP_rcv):
+		(417, 409, 432)
+	Status: delivering
+	Delivery Condition:(417, 409, 432) > (410, 409, 428)
+---------------------
+2021-10-17 11:30:01,737 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 104'
+	Packet Clock:
+		t_m: (415, 412, 428)
+		tP_snd: (415, 413, 428)
+	Receiver Logical Clock (tP_rcv):
+		(419, 412, 432)
+	Status: delivering
+	Delivery Condition:(419, 412, 432) > (415, 412, 428)
+---------------------
+2021-10-17 11:30:01,863 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 107'
+	Packet Clock:
+		t_m: (412, 409, 432)
+		tP_snd: (421, 413, 437)
+	Receiver Logical Clock (tP_rcv):
+		(421, 413, 432)
+	Status: delivering
+	Delivery Condition:(421, 413, 432) > (412, 409, 432)
+---------------------
+2021-10-17 11:30:02,226 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 108'
+	Packet Clock:
+		t_m: (421, 413, 437)
+		tP_snd: (424, 415, 441)
+	Receiver Logical Clock (tP_rcv):
+		(424, 413, 437)
+	Status: delivering
+	Delivery Condition:(424, 413, 437) > (421, 413, 437)
+---------------------
+2021-10-17 11:30:02,505 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 106'
+	Packet Clock:
+		t_m: (423, 421, 438)
+		tP_snd: (423, 422, 438)
+	Receiver Logical Clock (tP_rcv):
+		(425, 415, 441)
+	Status: buffered
+	Delivery Condition:(425, 415, 441) > (423, 421, 438)
+---------------------
+2021-10-17 11:30:02,506 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 105'
+	Packet Clock:
+		t_m: (421, 413, 437)
+		tP_snd: (423, 421, 438)
+	Receiver Logical Clock (tP_rcv):
+		(425, 415, 441)
+	Status: delivering
+	Delivery Condition:(425, 415, 441) > (421, 413, 437)
+---------------------
+2021-10-17 11:30:03,005 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 109'
+	Packet Clock:
+		t_m: (424, 422, 441)
+		tP_snd: (424, 423, 444)
+	Receiver Logical Clock (tP_rcv):
+		(428, 421, 441)
+	Status: buffered
+	Delivery Condition:(428, 421, 441) > (424, 422, 441)
+---------------------
+2021-10-17 11:30:03,005 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 106'
+	Packet Clock:
+		t_m: (423, 421, 438)
+		tP_snd: (423, 422, 438)
+	Receiver Logical Clock (tP_rcv):
+		(428, 421, 441)
+	Status: delivering from buffer
+	Delivery Condition:(428, 421, 441) > (423, 421, 438)
+---------------------
+2021-10-17 11:30:03,006 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 109'
+	Packet Clock:
+		t_m: (424, 422, 441)
+		tP_snd: (424, 423, 444)
+	Receiver Logical Clock (tP_rcv):
+		(429, 422, 441)
+	Status: delivering from buffer
+	Delivery Condition:(429, 422, 441) > (424, 422, 441)
+---------------------
+2021-10-17 11:30:03,177 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 108'
+	Packet Clock:
+		t_m: (427, 425, 441)
+		tP_snd: (427, 426, 441)
+	Receiver Logical Clock (tP_rcv):
+		(431, 423, 444)
+	Status: buffered
+	Delivery Condition:(431, 423, 444) > (427, 425, 441)
+---------------------
+2021-10-17 11:30:03,178 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 107'
+	Packet Clock:
+		t_m: (423, 422, 438)
+		tP_snd: (427, 425, 441)
+	Receiver Logical Clock (tP_rcv):
+		(431, 423, 444)
+	Status: delivering
+	Delivery Condition:(431, 423, 444) > (423, 422, 438)
+---------------------
+2021-10-17 11:30:03,259 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 110'
+	Packet Clock:
+		t_m: (424, 423, 444)
+		tP_snd: (424, 423, 445)
+	Receiver Logical Clock (tP_rcv):
+		(432, 425, 444)
+	Status: delivering
+	Delivery Condition:(432, 425, 444) > (424, 423, 444)
+---------------------
+2021-10-17 11:30:03,498 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 110'
+	Packet Clock:
+		t_m: (427, 427, 441)
+		tP_snd: (427, 430, 442)
+	Receiver Logical Clock (tP_rcv):
+		(434, 425, 445)
+	Status: buffered
+	Delivery Condition:(434, 425, 445) > (427, 427, 441)
+---------------------
+2021-10-17 11:30:03,498 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 108'
+	Packet Clock:
+		t_m: (427, 425, 441)
+		tP_snd: (427, 426, 441)
+	Receiver Logical Clock (tP_rcv):
+		(434, 425, 445)
+	Status: delivering from buffer
+	Delivery Condition:(434, 425, 445) > (427, 425, 441)
+---------------------
+2021-10-17 11:30:03,499 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 109'
+	Packet Clock:
+		t_m: (427, 426, 441)
+		tP_snd: (427, 427, 441)
+	Receiver Logical Clock (tP_rcv):
+		(435, 426, 445)
+	Status: delivering
+	Delivery Condition:(435, 426, 445) > (427, 426, 441)
+---------------------
+2021-10-17 11:30:03,870 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 111'
+	Packet Clock:
+		t_m: (427, 430, 442)
+		tP_snd: (427, 432, 442)
+	Receiver Logical Clock (tP_rcv):
+		(437, 427, 445)
+	Status: buffered
+	Delivery Condition:(437, 427, 445) > (427, 430, 442)
+---------------------
+2021-10-17 11:30:03,870 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 110'
+	Packet Clock:
+		t_m: (427, 427, 441)
+		tP_snd: (427, 430, 442)
+	Receiver Logical Clock (tP_rcv):
+		(437, 427, 445)
+	Status: delivering from buffer
+	Delivery Condition:(437, 427, 445) > (427, 427, 441)
+---------------------
+2021-10-17 11:30:03,871 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 111'
+	Packet Clock:
+		t_m: (427, 430, 442)
+		tP_snd: (427, 432, 442)
+	Receiver Logical Clock (tP_rcv):
+		(438, 430, 445)
+	Status: delivering from buffer
+	Delivery Condition:(438, 430, 445) > (427, 430, 442)
+---------------------
+2021-10-17 11:30:04,165 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 111'
+	Packet Clock:
+		t_m: (427, 427, 445)
+		tP_snd: (437, 428, 452)
+	Receiver Logical Clock (tP_rcv):
+		(441, 432, 445)
+	Status: delivering
+	Delivery Condition:(441, 432, 445) > (427, 427, 445)
+---------------------
+2021-10-17 11:30:04,353 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 112'
+	Packet Clock:
+		t_m: (437, 428, 452)
+		tP_snd: (437, 428, 453)
+	Receiver Logical Clock (tP_rcv):
+		(442, 432, 452)
+	Status: delivering
+	Delivery Condition:(442, 432, 452) > (437, 428, 452)
+---------------------
+2021-10-17 11:30:04,548 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 113'
+	Packet Clock:
+		t_m: (427, 433, 445)
+		tP_snd: (444, 440, 453)
+	Receiver Logical Clock (tP_rcv):
+		(444, 432, 453)
+	Status: buffered
+	Delivery Condition:(444, 432, 453) > (427, 433, 445)
+---------------------
+2021-10-17 11:30:04,549 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 112'
+	Packet Clock:
+		t_m: (427, 432, 442)
+		tP_snd: (427, 433, 442)
+	Receiver Logical Clock (tP_rcv):
+		(444, 432, 453)
+	Status: delivering
+	Delivery Condition:(444, 432, 453) > (427, 432, 442)
+---------------------
+2021-10-17 11:30:05,033 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 114'
+	Packet Clock:
+		t_m: (444, 440, 453)
+		tP_snd: (444, 443, 457)
+	Receiver Logical Clock (tP_rcv):
+		(446, 433, 453)
+	Status: buffered
+	Delivery Condition:(446, 433, 453) > (444, 440, 453)
+---------------------
+2021-10-17 11:30:05,034 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 113'
+	Packet Clock:
+		t_m: (427, 433, 445)
+		tP_snd: (444, 440, 453)
+	Receiver Logical Clock (tP_rcv):
+		(446, 433, 453)
+	Status: delivering from buffer
+	Delivery Condition:(446, 433, 453) > (427, 433, 445)
+---------------------
+2021-10-17 11:30:05,034 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 114'
+	Packet Clock:
+		t_m: (444, 440, 453)
+		tP_snd: (444, 443, 457)
+	Receiver Logical Clock (tP_rcv):
+		(447, 440, 453)
+	Status: delivering from buffer
+	Delivery Condition:(447, 440, 453) > (444, 440, 453)
+---------------------
+2021-10-17 11:30:05,269 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 113'
+	Packet Clock:
+		t_m: (444, 440, 453)
+		tP_snd: (444, 442, 459)
+	Receiver Logical Clock (tP_rcv):
+		(450, 443, 457)
+	Status: delivering
+	Delivery Condition:(450, 443, 457) > (444, 440, 453)
+---------------------
+2021-10-17 11:30:05,314 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 114'
+	Packet Clock:
+		t_m: (444, 442, 459)
+		tP_snd: (444, 442, 460)
+	Receiver Logical Clock (tP_rcv):
+		(451, 443, 459)
+	Status: delivering
+	Delivery Condition:(451, 443, 459) > (444, 442, 459)
+---------------------
+2021-10-17 11:30:05,326 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 115'
+	Packet Clock:
+		t_m: (444, 443, 457)
+		tP_snd: (450, 446, 457)
+	Receiver Logical Clock (tP_rcv):
+		(452, 443, 460)
+	Status: delivering
+	Delivery Condition:(452, 443, 460) > (444, 443, 457)
+---------------------
+2021-10-17 11:30:06,095 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 116'
+	Packet Clock:
+		t_m: (450, 446, 460)
+		tP_snd: (454, 451, 463)
+	Receiver Logical Clock (tP_rcv):
+		(455, 446, 460)
+	Status: delivering
+	Delivery Condition:(455, 446, 460) > (450, 446, 460)
+---------------------
+2021-10-17 11:30:06,096 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 115'
+	Packet Clock:
+		t_m: (450, 446, 460)
+		tP_snd: (455, 450, 466)
+	Receiver Logical Clock (tP_rcv):
+		(456, 451, 463)
+	Status: delivering
+	Delivery Condition:(456, 451, 463) > (450, 446, 460)
+---------------------
+2021-10-17 11:30:06,843 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 117'
+	Packet Clock:
+		t_m: (455, 451, 466)
+		tP_snd: (459, 458, 468)
+	Receiver Logical Clock (tP_rcv):
+		(460, 451, 466)
+	Status: delivering
+	Delivery Condition:(460, 451, 466) > (455, 451, 466)
+---------------------
+2021-10-17 11:30:07,475 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 117'
+	Packet Clock:
+		t_m: (460, 458, 471)
+		tP_snd: (463, 462, 476)
+	Receiver Logical Clock (tP_rcv):
+		(464, 458, 468)
+	Status: buffered
+	Delivery Condition:(464, 458, 468) > (460, 458, 471)
+---------------------
+2021-10-17 11:30:07,475 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 116'
+	Packet Clock:
+		t_m: (455, 451, 466)
+		tP_snd: (460, 452, 471)
+	Receiver Logical Clock (tP_rcv):
+		(464, 458, 468)
+	Status: delivering
+	Delivery Condition:(464, 458, 468) > (455, 451, 466)
+---------------------
+2021-10-17 11:30:07,589 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 118'
+	Packet Clock:
+		t_m: (459, 458, 468)
+		tP_snd: (463, 463, 468)
+	Receiver Logical Clock (tP_rcv):
+		(466, 458, 471)
+	Status: delivering
+	Delivery Condition:(466, 458, 471) > (459, 458, 468)
+---------------------
+2021-10-17 11:30:07,900 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 119'
+	Packet Clock:
+		t_m: (463, 463, 471)
+		tP_snd: (463, 466, 472)
+	Receiver Logical Clock (tP_rcv):
+		(468, 463, 471)
+	Status: delivering
+	Delivery Condition:(468, 463, 471) > (463, 463, 471)
+---------------------
+2021-10-17 11:30:07,910 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 118'
+	Packet Clock:
+		t_m: (463, 463, 476)
+		tP_snd: (468, 465, 482)
+	Receiver Logical Clock (tP_rcv):
+		(469, 466, 472)
+	Status: buffered
+	Delivery Condition:(469, 466, 472) > (463, 463, 476)
+---------------------
+2021-10-17 11:30:07,910 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 117'
+	Packet Clock:
+		t_m: (460, 458, 471)
+		tP_snd: (463, 462, 476)
+	Receiver Logical Clock (tP_rcv):
+		(469, 466, 472)
+	Status: delivering from buffer
+	Delivery Condition:(469, 466, 472) > (460, 458, 471)
+---------------------
+2021-10-17 11:30:07,910 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 118'
+	Packet Clock:
+		t_m: (463, 463, 476)
+		tP_snd: (468, 465, 482)
+	Receiver Logical Clock (tP_rcv):
+		(470, 466, 476)
+	Status: delivering from buffer
+	Delivery Condition:(470, 466, 476) > (463, 463, 476)
+---------------------
+2021-10-17 11:30:08,243 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 121'
+	Packet Clock:
+		t_m: (472, 470, 482)
+		tP_snd: (472, 472, 482)
+	Receiver Logical Clock (tP_rcv):
+		(472, 466, 482)
+	Status: buffered
+	Delivery Condition:(472, 466, 482) > (472, 470, 482)
+---------------------
+2021-10-17 11:30:08,244 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 120'
+	Packet Clock:
+		t_m: (463, 466, 476)
+		tP_snd: (472, 470, 482)
+	Receiver Logical Clock (tP_rcv):
+		(472, 466, 482)
+	Status: delivering
+	Delivery Condition:(472, 466, 482) > (463, 466, 476)
+---------------------
+2021-10-17 11:30:08,604 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 119'
+	Packet Clock:
+		t_m: (472, 470, 482)
+		tP_snd: (474, 471, 488)
+	Receiver Logical Clock (tP_rcv):
+		(474, 470, 482)
+	Status: delivering
+	Delivery Condition:(474, 470, 482) > (472, 470, 482)
+---------------------
+2021-10-17 11:30:08,735 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 120'
+	Packet Clock:
+		t_m: (474, 472, 488)
+		tP_snd: (476, 477, 491)
+	Receiver Logical Clock (tP_rcv):
+		(476, 471, 488)
+	Status: buffered
+	Delivery Condition:(476, 471, 488) > (474, 472, 488)
+---------------------
+2021-10-17 11:30:08,736 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 121'
+	Packet Clock:
+		t_m: (472, 470, 482)
+		tP_snd: (472, 472, 482)
+	Receiver Logical Clock (tP_rcv):
+		(476, 471, 488)
+	Status: delivering from buffer
+	Delivery Condition:(476, 471, 488) > (472, 470, 482)
+---------------------
+2021-10-17 11:30:08,736 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 120'
+	Packet Clock:
+		t_m: (474, 472, 488)
+		tP_snd: (476, 477, 491)
+	Receiver Logical Clock (tP_rcv):
+		(477, 472, 488)
+	Status: delivering from buffer
+	Delivery Condition:(477, 472, 488) > (474, 472, 488)
+---------------------
+2021-10-17 11:30:09,063 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 122'
+	Packet Clock:
+		t_m: (476, 477, 491)
+		tP_snd: (479, 479, 493)
+	Receiver Logical Clock (tP_rcv):
+		(479, 477, 491)
+	Status: delivering
+	Delivery Condition:(479, 477, 491) > (476, 477, 491)
+---------------------
+2021-10-17 11:30:09,868 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 123'
+	Packet Clock:
+		t_m: (482, 481, 496)
+		tP_snd: (482, 484, 498)
+	Receiver Logical Clock (tP_rcv):
+		(482, 479, 493)
+	Status: buffered
+	Delivery Condition:(482, 479, 493) > (482, 481, 496)
+---------------------
+2021-10-17 11:30:10,223 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 124'
+	Packet Clock:
+		t_m: (482, 484, 498)
+		tP_snd: (483, 487, 499)
+	Receiver Logical Clock (tP_rcv):
+		(483, 479, 493)
+	Status: buffered
+	Delivery Condition:(483, 479, 493) > (482, 484, 498)
+---------------------
+2021-10-17 11:30:10,553 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 122'
+	Packet Clock:
+		t_m: (483, 487, 499)
+		tP_snd: (483, 488, 502)
+	Receiver Logical Clock (tP_rcv):
+		(483, 479, 493)
+	Status: buffered
+	Delivery Condition:(483, 479, 493) > (483, 487, 499)
+---------------------
+2021-10-17 11:30:10,553 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 121'
+	Packet Clock:
+		t_m: (479, 479, 493)
+		tP_snd: (482, 481, 496)
+	Receiver Logical Clock (tP_rcv):
+		(483, 479, 493)
+	Status: delivering
+	Delivery Condition:(483, 479, 493) > (479, 479, 493)
+---------------------
+2021-10-17 11:30:10,781 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 125'
+	Packet Clock:
+		t_m: (483, 487, 499)
+		tP_snd: (487, 492, 501)
+	Receiver Logical Clock (tP_rcv):
+		(487, 481, 496)
+	Status: buffered
+	Delivery Condition:(487, 481, 496) > (483, 487, 499)
+---------------------
+2021-10-17 11:30:10,781 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 123'
+	Packet Clock:
+		t_m: (482, 481, 496)
+		tP_snd: (482, 484, 498)
+	Receiver Logical Clock (tP_rcv):
+		(487, 481, 496)
+	Status: delivering from buffer
+	Delivery Condition:(487, 481, 496) > (482, 481, 496)
+---------------------
+2021-10-17 11:30:10,782 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 124'
+	Packet Clock:
+		t_m: (482, 484, 498)
+		tP_snd: (483, 487, 499)
+	Receiver Logical Clock (tP_rcv):
+		(488, 484, 498)
+	Status: delivering from buffer
+	Delivery Condition:(488, 484, 498) > (482, 484, 498)
+---------------------
+2021-10-17 11:30:10,782 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 122'
+	Packet Clock:
+		t_m: (483, 487, 499)
+		tP_snd: (483, 488, 502)
+	Receiver Logical Clock (tP_rcv):
+		(489, 487, 499)
+	Status: delivering from buffer
+	Delivery Condition:(489, 487, 499) > (483, 487, 499)
+---------------------
+2021-10-17 11:30:10,783 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 125'
+	Packet Clock:
+		t_m: (483, 487, 499)
+		tP_snd: (487, 492, 501)
+	Receiver Logical Clock (tP_rcv):
+		(490, 488, 502)
+	Status: delivering from buffer
+	Delivery Condition:(490, 488, 502) > (483, 487, 499)
+---------------------
+2021-10-17 11:30:11,113 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 123'
+	Packet Clock:
+		t_m: (487, 492, 502)
+		tP_snd: (487, 493, 505)
+	Receiver Logical Clock (tP_rcv):
+		(491, 492, 502)
+	Status: delivering
+	Delivery Condition:(491, 492, 502) > (487, 492, 502)
+---------------------
+2021-10-17 11:30:11,298 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 126'
+	Packet Clock:
+		t_m: (487, 493, 505)
+		tP_snd: (487, 495, 506)
+	Receiver Logical Clock (tP_rcv):
+		(492, 493, 505)
+	Status: delivering
+	Delivery Condition:(492, 493, 505) > (487, 493, 505)
+---------------------
+2021-10-17 11:30:11,361 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 124'
+	Packet Clock:
+		t_m: (487, 493, 505)
+		tP_snd: (487, 493, 507)
+	Receiver Logical Clock (tP_rcv):
+		(493, 495, 506)
+	Status: delivering
+	Delivery Condition:(493, 495, 506) > (487, 493, 505)
+---------------------
+2021-10-17 11:30:11,478 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 125'
+	Packet Clock:
+		t_m: (487, 495, 507)
+		tP_snd: (495, 496, 510)
+	Receiver Logical Clock (tP_rcv):
+		(495, 495, 507)
+	Status: delivering
+	Delivery Condition:(495, 495, 507) > (487, 495, 507)
+---------------------
+2021-10-17 11:30:12,060 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 127'
+	Packet Clock:
+		t_m: (495, 496, 510)
+		tP_snd: (497, 499, 511)
+	Receiver Logical Clock (tP_rcv):
+		(498, 496, 510)
+	Status: delivering
+	Delivery Condition:(498, 496, 510) > (495, 496, 510)
+---------------------
+2021-10-17 11:30:12,084 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 126'
+	Packet Clock:
+		t_m: (497, 499, 511)
+		tP_snd: (498, 500, 514)
+	Receiver Logical Clock (tP_rcv):
+		(500, 499, 511)
+	Status: delivering
+	Delivery Condition:(500, 499, 511) > (497, 499, 511)
+---------------------
+2021-10-17 11:30:12,246 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 127'
+	Packet Clock:
+		t_m: (498, 500, 514)
+		tP_snd: (498, 500, 516)
+	Receiver Logical Clock (tP_rcv):
+		(501, 500, 514)
+	Status: delivering
+	Delivery Condition:(501, 500, 514) > (498, 500, 514)
+---------------------
+2021-10-17 11:30:12,505 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 128'
+	Packet Clock:
+		t_m: (498, 500, 516)
+		tP_snd: (498, 500, 517)
+	Receiver Logical Clock (tP_rcv):
+		(502, 500, 516)
+	Status: delivering
+	Delivery Condition:(502, 500, 516) > (498, 500, 516)
+---------------------
+2021-10-17 11:30:12,659 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 129'
+	Packet Clock:
+		t_m: (498, 500, 517)
+		tP_snd: (504, 500, 519)
+	Receiver Logical Clock (tP_rcv):
+		(504, 500, 517)
+	Status: delivering
+	Delivery Condition:(504, 500, 517) > (498, 500, 517)
+---------------------
+2021-10-17 11:30:13,027 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 128'
+	Packet Clock:
+		t_m: (504, 500, 519)
+		tP_snd: (504, 505, 520)
+	Receiver Logical Clock (tP_rcv):
+		(507, 500, 519)
+	Status: delivering
+	Delivery Condition:(507, 500, 519) > (504, 500, 519)
+---------------------
+2021-10-17 11:30:13,279 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 129'
+	Packet Clock:
+		t_m: (504, 505, 520)
+		tP_snd: (504, 507, 520)
+	Receiver Logical Clock (tP_rcv):
+		(508, 505, 520)
+	Status: delivering
+	Delivery Condition:(508, 505, 520) > (504, 505, 520)
+---------------------
+2021-10-17 11:30:13,338 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 130'
+	Packet Clock:
+		t_m: (504, 507, 520)
+		tP_snd: (504, 508, 520)
+	Receiver Logical Clock (tP_rcv):
+		(509, 507, 520)
+	Status: delivering
+	Delivery Condition:(509, 507, 520) > (504, 507, 520)
+---------------------
+2021-10-17 11:30:13,592 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 130'
+	Packet Clock:
+		t_m: (504, 505, 520)
+		tP_snd: (511, 508, 526)
+	Receiver Logical Clock (tP_rcv):
+		(511, 508, 520)
+	Status: delivering
+	Delivery Condition:(511, 508, 520) > (504, 505, 520)
+---------------------
+2021-10-17 11:30:13,601 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 131'
+	Packet Clock:
+		t_m: (511, 508, 526)
+		tP_snd: (511, 508, 527)
+	Receiver Logical Clock (tP_rcv):
+		(513, 508, 526)
+	Status: delivering
+	Delivery Condition:(513, 508, 526) > (511, 508, 526)
+---------------------
+2021-10-17 11:30:13,633 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 131'
+	Packet Clock:
+		t_m: (504, 508, 520)
+		tP_snd: (506, 511, 520)
+	Receiver Logical Clock (tP_rcv):
+		(514, 508, 527)
+	Status: delivering
+	Delivery Condition:(514, 508, 527) > (504, 508, 520)
+---------------------
+2021-10-17 11:30:14,272 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 132'
+	Packet Clock:
+		t_m: (511, 508, 527)
+		tP_snd: (517, 511, 531)
+	Receiver Logical Clock (tP_rcv):
+		(518, 511, 527)
+	Status: delivering
+	Delivery Condition:(518, 511, 527) > (511, 508, 527)
+---------------------
+2021-10-17 11:30:14,467 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 132'
+	Packet Clock:
+		t_m: (511, 511, 527)
+		tP_snd: (518, 519, 528)
+	Receiver Logical Clock (tP_rcv):
+		(519, 511, 531)
+	Status: delivering
+	Delivery Condition:(519, 511, 531) > (511, 511, 527)
+---------------------
+2021-10-17 11:30:15,193 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 134'
+	Packet Clock:
+		t_m: (524, 524, 534)
+		tP_snd: (524, 526, 535)
+	Receiver Logical Clock (tP_rcv):
+		(525, 519, 531)
+	Status: buffered
+	Delivery Condition:(525, 519, 531) > (524, 524, 534)
+---------------------
+2021-10-17 11:30:15,193 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 133'
+	Packet Clock:
+		t_m: (518, 519, 532)
+		tP_snd: (524, 524, 534)
+	Receiver Logical Clock (tP_rcv):
+		(525, 519, 531)
+	Status: buffered
+	Delivery Condition:(525, 519, 531) > (518, 519, 532)
+---------------------
+2021-10-17 11:30:15,626 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 135'
+	Packet Clock:
+		t_m: (524, 526, 535)
+		tP_snd: (524, 528, 535)
+	Receiver Logical Clock (tP_rcv):
+		(527, 519, 531)
+	Status: buffered
+	Delivery Condition:(527, 519, 531) > (524, 526, 535)
+---------------------
+2021-10-17 11:30:15,824 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 136'
+	Packet Clock:
+		t_m: (524, 528, 538)
+		tP_snd: (528, 532, 543)
+	Receiver Logical Clock (tP_rcv):
+		(529, 519, 531)
+	Status: buffered
+	Delivery Condition:(529, 519, 531) > (524, 528, 538)
+---------------------
+2021-10-17 11:30:16,016 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 135'
+	Packet Clock:
+		t_m: (524, 526, 538)
+		tP_snd: (530, 527, 545)
+	Receiver Logical Clock (tP_rcv):
+		(530, 519, 531)
+	Status: buffered
+	Delivery Condition:(530, 519, 531) > (524, 526, 538)
+---------------------
+2021-10-17 11:30:16,016 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 134'
+	Packet Clock:
+		t_m: (517, 511, 532)
+		tP_snd: (523, 519, 538)
+	Receiver Logical Clock (tP_rcv):
+		(530, 519, 531)
+	Status: buffered
+	Delivery Condition:(530, 519, 531) > (517, 511, 532)
+---------------------
+2021-10-17 11:30:16,017 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 133'
+	Packet Clock:
+		t_m: (517, 511, 531)
+		tP_snd: (517, 511, 532)
+	Receiver Logical Clock (tP_rcv):
+		(530, 519, 531)
+	Status: delivering
+	Delivery Condition:(530, 519, 531) > (517, 511, 531)
+---------------------
+2021-10-17 11:30:16,045 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 137'
+	Packet Clock:
+		t_m: (528, 532, 543)
+		tP_snd: (528, 534, 543)
+	Receiver Logical Clock (tP_rcv):
+		(531, 519, 532)
+	Status: buffered
+	Delivery Condition:(531, 519, 532) > (528, 532, 543)
+---------------------
+2021-10-17 11:30:16,046 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 133'
+	Packet Clock:
+		t_m: (518, 519, 532)
+		tP_snd: (524, 524, 534)
+	Receiver Logical Clock (tP_rcv):
+		(531, 519, 532)
+	Status: delivering from buffer
+	Delivery Condition:(531, 519, 532) > (518, 519, 532)
+---------------------
+2021-10-17 11:30:16,046 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 134'
+	Packet Clock:
+		t_m: (524, 524, 534)
+		tP_snd: (524, 526, 535)
+	Receiver Logical Clock (tP_rcv):
+		(532, 524, 534)
+	Status: delivering from buffer
+	Delivery Condition:(532, 524, 534) > (524, 524, 534)
+---------------------
+2021-10-17 11:30:16,046 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 135'
+	Packet Clock:
+		t_m: (524, 526, 535)
+		tP_snd: (524, 528, 535)
+	Receiver Logical Clock (tP_rcv):
+		(533, 526, 535)
+	Status: delivering from buffer
+	Delivery Condition:(533, 526, 535) > (524, 526, 535)
+---------------------
+2021-10-17 11:30:16,047 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 134'
+	Packet Clock:
+		t_m: (517, 511, 532)
+		tP_snd: (523, 519, 538)
+	Receiver Logical Clock (tP_rcv):
+		(534, 528, 535)
+	Status: delivering from buffer
+	Delivery Condition:(534, 528, 535) > (517, 511, 532)
+---------------------
+2021-10-17 11:30:16,047 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 136'
+	Packet Clock:
+		t_m: (524, 528, 538)
+		tP_snd: (528, 532, 543)
+	Receiver Logical Clock (tP_rcv):
+		(535, 528, 538)
+	Status: delivering from buffer
+	Delivery Condition:(535, 528, 538) > (524, 528, 538)
+---------------------
+2021-10-17 11:30:16,048 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 135'
+	Packet Clock:
+		t_m: (524, 526, 538)
+		tP_snd: (530, 527, 545)
+	Receiver Logical Clock (tP_rcv):
+		(536, 532, 543)
+	Status: delivering from buffer
+	Delivery Condition:(536, 532, 543) > (524, 526, 538)
+---------------------
+2021-10-17 11:30:16,048 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 137'
+	Packet Clock:
+		t_m: (528, 532, 543)
+		tP_snd: (528, 534, 543)
+	Receiver Logical Clock (tP_rcv):
+		(537, 532, 545)
+	Status: delivering from buffer
+	Delivery Condition:(537, 532, 545) > (528, 532, 543)
+---------------------
+2021-10-17 11:30:16,049 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 136'
+	Packet Clock:
+		t_m: (530, 528, 545)
+		tP_snd: (530, 529, 547)
+	Receiver Logical Clock (tP_rcv):
+		(538, 534, 545)
+	Status: delivering
+	Delivery Condition:(538, 534, 545) > (530, 528, 545)
+---------------------
+2021-10-17 11:30:16,318 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 137'
+	Packet Clock:
+		t_m: (530, 532, 547)
+		tP_snd: (541, 534, 550)
+	Receiver Logical Clock (tP_rcv):
+		(541, 534, 547)
+	Status: delivering
+	Delivery Condition:(541, 534, 547) > (530, 532, 547)
+---------------------
+2021-10-17 11:30:16,403 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 138'
+	Packet Clock:
+		t_m: (541, 534, 550)
+		tP_snd: (544, 539, 552)
+	Receiver Logical Clock (tP_rcv):
+		(544, 534, 550)
+	Status: delivering
+	Delivery Condition:(544, 534, 550) > (541, 534, 550)
+---------------------
+2021-10-17 11:30:16,525 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 138'
+	Packet Clock:
+		t_m: (541, 534, 550)
+		tP_snd: (546, 539, 555)
+	Receiver Logical Clock (tP_rcv):
+		(546, 539, 552)
+	Status: delivering
+	Delivery Condition:(546, 539, 552) > (541, 534, 550)
+---------------------
+2021-10-17 11:30:16,990 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 139'
+	Packet Clock:
+		t_m: (546, 539, 555)
+		tP_snd: (548, 544, 556)
+	Receiver Logical Clock (tP_rcv):
+		(548, 539, 555)
+	Status: delivering
+	Delivery Condition:(548, 539, 555) > (546, 539, 555)
+---------------------
+2021-10-17 11:30:17,292 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 139'
+	Packet Clock:
+		t_m: (546, 539, 555)
+		tP_snd: (548, 543, 558)
+	Receiver Logical Clock (tP_rcv):
+		(550, 544, 556)
+	Status: delivering
+	Delivery Condition:(550, 544, 556) > (546, 539, 555)
+---------------------
+2021-10-17 11:30:17,351 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 140'
+	Packet Clock:
+		t_m: (548, 544, 556)
+		tP_snd: (550, 546, 556)
+	Receiver Logical Clock (tP_rcv):
+		(552, 544, 558)
+	Status: delivering
+	Delivery Condition:(552, 544, 558) > (548, 544, 556)
+---------------------
+2021-10-17 11:30:17,839 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 140'
+	Packet Clock:
+		t_m: (550, 546, 558)
+		tP_snd: (550, 548, 561)
+	Receiver Logical Clock (tP_rcv):
+		(553, 546, 558)
+	Status: delivering
+	Delivery Condition:(553, 546, 558) > (550, 546, 558)
+---------------------
+2021-10-17 11:30:18,004 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 141'
+	Packet Clock:
+		t_m: (550, 548, 561)
+		tP_snd: (550, 548, 562)
+	Receiver Logical Clock (tP_rcv):
+		(555, 548, 561)
+	Status: delivering
+	Delivery Condition:(555, 548, 561) > (550, 548, 561)
+---------------------
+2021-10-17 11:30:18,388 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 142'
+	Packet Clock:
+		t_m: (550, 549, 559)
+		tP_snd: (555, 551, 561)
+	Receiver Logical Clock (tP_rcv):
+		(558, 548, 562)
+	Status: buffered
+	Delivery Condition:(558, 548, 562) > (550, 549, 559)
+---------------------
+2021-10-17 11:30:18,389 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 141'
+	Packet Clock:
+		t_m: (550, 546, 558)
+		tP_snd: (550, 549, 559)
+	Receiver Logical Clock (tP_rcv):
+		(558, 548, 562)
+	Status: delivering
+	Delivery Condition:(558, 548, 562) > (550, 546, 558)
+---------------------
+2021-10-17 11:30:18,872 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 143'
+	Packet Clock:
+		t_m: (555, 551, 562)
+		tP_snd: (560, 555, 564)
+	Receiver Logical Clock (tP_rcv):
+		(560, 549, 562)
+	Status: buffered
+	Delivery Condition:(560, 549, 562) > (555, 551, 562)
+---------------------
+2021-10-17 11:30:18,873 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 142'
+	Packet Clock:
+		t_m: (550, 549, 559)
+		tP_snd: (555, 551, 561)
+	Receiver Logical Clock (tP_rcv):
+		(560, 549, 562)
+	Status: delivering from buffer
+	Delivery Condition:(560, 549, 562) > (550, 549, 559)
+---------------------
+2021-10-17 11:30:18,873 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 143'
+	Packet Clock:
+		t_m: (555, 551, 562)
+		tP_snd: (560, 555, 564)
+	Receiver Logical Clock (tP_rcv):
+		(561, 551, 562)
+	Status: delivering from buffer
+	Delivery Condition:(561, 551, 562) > (555, 551, 562)
+---------------------
+2021-10-17 11:30:18,911 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 142'
+	Packet Clock:
+		t_m: (555, 551, 562)
+		tP_snd: (558, 552, 569)
+	Receiver Logical Clock (tP_rcv):
+		(562, 555, 564)
+	Status: delivering
+	Delivery Condition:(562, 555, 564) > (555, 551, 562)
+---------------------
+2021-10-17 11:30:19,266 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 143'
+	Packet Clock:
+		t_m: (558, 552, 569)
+		tP_snd: (558, 552, 571)
+	Receiver Logical Clock (tP_rcv):
+		(563, 555, 569)
+	Status: delivering
+	Delivery Condition:(563, 555, 569) > (558, 552, 569)
+---------------------
+2021-10-17 11:30:19,392 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 144'
+	Packet Clock:
+		t_m: (558, 552, 571)
+		tP_snd: (565, 555, 574)
+	Receiver Logical Clock (tP_rcv):
+		(565, 555, 571)
+	Status: delivering
+	Delivery Condition:(565, 555, 571) > (558, 552, 571)
+---------------------
+2021-10-17 11:30:19,591 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 145'
+	Packet Clock:
+		t_m: (565, 555, 574)
+		tP_snd: (565, 555, 575)
+	Receiver Logical Clock (tP_rcv):
+		(567, 555, 574)
+	Status: delivering
+	Delivery Condition:(567, 555, 574) > (565, 555, 574)
+---------------------
+2021-10-17 11:30:19,809 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 144'
+	Packet Clock:
+		t_m: (560, 555, 571)
+		tP_snd: (567, 561, 574)
+	Receiver Logical Clock (tP_rcv):
+		(568, 555, 575)
+	Status: delivering
+	Delivery Condition:(568, 555, 575) > (560, 555, 571)
+---------------------
+2021-10-17 11:30:20,294 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 146'
+	Packet Clock:
+		t_m: (565, 555, 575)
+		tP_snd: (570, 561, 579)
+	Receiver Logical Clock (tP_rcv):
+		(570, 561, 575)
+	Status: delivering
+	Delivery Condition:(570, 561, 575) > (565, 555, 575)
+---------------------
+2021-10-17 11:30:20,466 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 145'
+	Packet Clock:
+		t_m: (567, 561, 575)
+		tP_snd: (572, 567, 579)
+	Receiver Logical Clock (tP_rcv):
+		(572, 561, 579)
+	Status: delivering
+	Delivery Condition:(572, 561, 579) > (567, 561, 575)
+---------------------
+2021-10-17 11:30:21,136 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 147'
+	Packet Clock:
+		t_m: (572, 567, 579)
+		tP_snd: (572, 568, 585)
+	Receiver Logical Clock (tP_rcv):
+		(574, 567, 579)
+	Status: delivering
+	Delivery Condition:(574, 567, 579) > (572, 567, 579)
+---------------------
+2021-10-17 11:30:21,406 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 146'
+	Packet Clock:
+		t_m: (572, 568, 585)
+		tP_snd: (576, 572, 587)
+	Receiver Logical Clock (tP_rcv):
+		(577, 568, 585)
+	Status: delivering
+	Delivery Condition:(577, 568, 585) > (572, 568, 585)
+---------------------
+2021-10-17 11:30:21,583 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 148'
+	Packet Clock:
+		t_m: (576, 572, 587)
+		tP_snd: (576, 573, 589)
+	Receiver Logical Clock (tP_rcv):
+		(578, 572, 587)
+	Status: delivering
+	Delivery Condition:(578, 572, 587) > (576, 572, 587)
+---------------------
+2021-10-17 11:30:21,665 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 147'
+	Packet Clock:
+		t_m: (576, 572, 587)
+		tP_snd: (576, 574, 587)
+	Receiver Logical Clock (tP_rcv):
+		(579, 573, 589)
+	Status: delivering
+	Delivery Condition:(579, 573, 589) > (576, 572, 587)
+---------------------
+2021-10-17 11:30:21,831 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 148'
+	Packet Clock:
+		t_m: (576, 574, 587)
+		tP_snd: (576, 575, 587)
+	Receiver Logical Clock (tP_rcv):
+		(581, 574, 589)
+	Status: delivering
+	Delivery Condition:(581, 574, 589) > (576, 574, 587)
+---------------------
+2021-10-17 11:30:22,378 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 149'
+	Packet Clock:
+		t_m: (576, 575, 590)
+		tP_snd: (584, 580, 591)
+	Receiver Logical Clock (tP_rcv):
+		(584, 575, 589)
+	Status: buffered
+	Delivery Condition:(584, 575, 589) > (576, 575, 590)
+---------------------
+2021-10-17 11:30:22,623 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 150'
+	Packet Clock:
+		t_m: (584, 580, 591)
+		tP_snd: (584, 581, 594)
+	Receiver Logical Clock (tP_rcv):
+		(584, 575, 589)
+	Status: buffered
+	Delivery Condition:(584, 575, 589) > (584, 580, 591)
+---------------------
+2021-10-17 11:30:22,623 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 149'
+	Packet Clock:
+		t_m: (576, 573, 589)
+		tP_snd: (576, 573, 590)
+	Receiver Logical Clock (tP_rcv):
+		(584, 575, 589)
+	Status: delivering
+	Delivery Condition:(584, 575, 589) > (576, 573, 589)
+---------------------
+2021-10-17 11:30:23,621 - __receiver_log__ - WARNING: 
+RECEIVER #140509679032064: close connection to 127.0.0.1:48276
+---------------------
+2021-10-17 11:30:24,166 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 150'
+	Packet Clock:
+		t_m: (584, 581, 594)
+		tP_snd: (586, 585, 595)
+	Receiver Logical Clock (tP_rcv):
+		(588, 575, 590)
+	Status: buffered
+	Delivery Condition:(588, 575, 590) > (584, 581, 594)
+---------------------
+2021-10-17 11:30:24,166 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 149'
+	Packet Clock:
+		t_m: (576, 575, 590)
+		tP_snd: (584, 580, 591)
+	Receiver Logical Clock (tP_rcv):
+		(588, 575, 590)
+	Status: delivering from buffer
+	Delivery Condition:(588, 575, 590) > (576, 575, 590)
+---------------------
+2021-10-17 11:30:24,167 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: b'Message from 2, number 150'
+	Packet Clock:
+		t_m: (584, 580, 591)
+		tP_snd: (584, 581, 594)
+	Receiver Logical Clock (tP_rcv):
+		(589, 580, 591)
+	Status: delivering from buffer
+	Delivery Condition:(589, 580, 591) > (584, 580, 591)
+---------------------
+2021-10-17 11:30:24,167 - __receiver_log__ - INFO: 
+Received Packet Info BEFORE DELIVERED FROM BUFFERED :
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: b'Message from 1, number 150'
+	Packet Clock:
+		t_m: (584, 581, 594)
+		tP_snd: (586, 585, 595)
+	Receiver Logical Clock (tP_rcv):
+		(590, 581, 594)
+	Status: delivering from buffer
+	Delivery Condition:(590, 581, 594) > (584, 581, 594)
+---------------------
+2021-10-17 11:30:24,167 - __receiver_log__ - WARNING: 
+RECEIVER #140509687424768: close connection to 127.0.0.1:48272
+---------------------

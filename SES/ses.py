@@ -87,8 +87,8 @@ class SES:
     def deliver(self, packet):
         self.lock.acquire()  # synchronize
         source_vector_clock, packet = self.deserialize(packet)
-        t_p = self.vector_clock.get_clock(self.vector_clock.instance_id)
-        t_m = source_vector_clock.get_clock(self.vector_clock.instance_id)
+        t_p = self.vector_clock.get_clock(self.vector_clock.instance_id)  # T_Pi: timestamp of the clock.
+        t_m = source_vector_clock.get_clock(self.vector_clock.instance_id)  # timestamp of Pi in the packet
         if t_m < t_p:
             # Deliver
             logger_receive.info(

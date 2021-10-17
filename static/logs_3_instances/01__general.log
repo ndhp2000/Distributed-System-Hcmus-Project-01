@@ -1,0 +1,12 @@
+2021-10-17 11:29:08,020 - __general_log__ - INFO: 
+Server is Listening on 127.0.0.1:60001
+---------------------
+2021-10-17 11:29:08,237 - __general_log__ - INFO: 
+Open Connection with 127.0.0.1:37070
+---------------------
+2021-10-17 11:29:08,317 - __general_log__ - INFO: 
+Open Connection with 127.0.0.1:37072
+---------------------
+2021-10-17 11:33:15,111 - __general_log__ - WARNING: 
+Force to stop. Cleaning all children processes.
+---------------------

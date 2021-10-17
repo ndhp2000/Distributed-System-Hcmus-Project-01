@@ -19,12 +19,20 @@ class ReceiverWorker(threading.Thread):
     def run(self):
         while not self.shutdown_flag.is_set():
             data_size = int.from_bytes(self.connection.recv(INT_SIZE), INT_REPR, signed=True)
-            if not data_size:
+
+            if not data_size:  # Close connection
+                for packet in self.noise[::-1]:  # Send left over noise in data
+                    self.ses_clock.deliver(packet)
+                    logger.debug(
+                        'RECEIVER #{}: Received message {} from {}:{}'.format(self.ident, packet, self.address[0],
+                                                                              self.address[1]))
                 break
+
             packet = self.connection.recv(data_size)
+
             self.noise.append(packet)
-            if random.random() > 0.2 and len(self.noise):
-                for packet in self.noise[::-1]:
+            if random.random() > 0.1 and len(self.noise):
+                for packet in self.noise[::-1]:  # Reverse the receive packet to create noise for SES to handle
                     self.ses_clock.deliver(packet)
                     logger.debug(
                         'RECEIVER #{}: Received message {} from {}:{}'.format(self.ident, packet, self.address[0],
